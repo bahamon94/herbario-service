@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "titular_derechos",
+  "info": {
+    "name": "titular_derechos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ins_id": {
+      "type": "integer",
+      "unique": true
+    },
+    "ins_nombre": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "ins_codigo": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "ins_identificacion": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "registro_especimen": {
+      "via": "reg_idTitularDerechos",
+      "collection": "registro-especimen"
+    }
+  }
+}

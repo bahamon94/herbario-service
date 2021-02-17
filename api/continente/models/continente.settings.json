@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "continentes",
+  "info": {
+    "name": "continente"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "con_id": {
+      "type": "integer",
+      "unique": true
+    },
+    "con_nombre": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "pais": {
+      "via": "continente",
+      "collection": "pais"
+    }
+  }
+}

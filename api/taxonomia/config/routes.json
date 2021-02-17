@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/taxonomias",
+      "handler": "taxonomia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/taxonomias/count",
+      "handler": "taxonomia.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/taxonomias/:id",
+      "handler": "taxonomia.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/taxonomias",
+      "handler": "taxonomia.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/taxonomias/:id",
+      "handler": "taxonomia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/taxonomias/:id",
+      "handler": "taxonomia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

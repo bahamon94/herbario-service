@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipo_imagens",
+  "info": {
+    "name": "tipo_imagen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tim_nombre": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "tim_descripcion": {
+      "type": "string",
+      "maxLength": 150
+    },
+    "imagens": {
+      "via": "ima_id_tipo_imagen",
+      "collection": "imagen"
+    }
+  }
+}

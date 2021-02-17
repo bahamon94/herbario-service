@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "departamentos",
+  "info": {
+    "name": "departamentos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "dept_id": {
+      "type": "integer",
+      "unique": true
+    },
+    "dept_nombre": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "dept_pais": {
+      "model": "pais",
+      "via": "pais"
+    },
+    "municipios": {
+      "via": "municipi_departamento",
+      "collection": "municipios"
+    }
+  }
+}

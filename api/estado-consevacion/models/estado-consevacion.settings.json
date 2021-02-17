@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "estado_consevacions",
+  "info": {
+    "name": "estado_consevacion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "est_nombre": {
+      "type": "string"
+    },
+    "registro_especimen": {
+      "via": "reg_idEstadoConservacion",
+      "collection": "registro-especimen"
+    }
+  }
+}

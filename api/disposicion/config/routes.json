@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/disposicions",
+      "handler": "disposicion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/disposicions/count",
+      "handler": "disposicion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/disposicions/:id",
+      "handler": "disposicion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/disposicions",
+      "handler": "disposicion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/disposicions/:id",
+      "handler": "disposicion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/disposicions/:id",
+      "handler": "disposicion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

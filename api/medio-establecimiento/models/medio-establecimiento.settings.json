@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medio_establecimientos",
+  "info": {
+    "name": "medio_establecimiento"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "mees_id": {
+      "type": "integer",
+      "unique": true
+    },
+    "mees_nombre": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "registro_especimen": {
+      "via": "reg_idMedioEstablecimiento",
+      "collection": "registro-especimen"
+    }
+  }
+}

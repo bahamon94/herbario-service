@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tipo-imagens",
+      "handler": "tipo-imagen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipo-imagens/count",
+      "handler": "tipo-imagen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipo-imagens/:id",
+      "handler": "tipo-imagen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tipo-imagens",
+      "handler": "tipo-imagen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tipo-imagens/:id",
+      "handler": "tipo-imagen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tipo-imagens/:id",
+      "handler": "tipo-imagen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

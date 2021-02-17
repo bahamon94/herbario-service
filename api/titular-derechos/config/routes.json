@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/titular-derechos",
+      "handler": "titular-derechos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/titular-derechos/count",
+      "handler": "titular-derechos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/titular-derechos/:id",
+      "handler": "titular-derechos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/titular-derechos",
+      "handler": "titular-derechos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/titular-derechos/:id",
+      "handler": "titular-derechos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/titular-derechos/:id",
+      "handler": "titular-derechos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "disposicions",
+  "info": {
+    "name": "disposicion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "dis_is": {
+      "type": "integer",
+      "unique": true
+    },
+    "dis_nombre": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "registro_especimen": {
+      "via": "reg_idDisposicion",
+      "collection": "registro-especimen"
+    }
+  }
+}

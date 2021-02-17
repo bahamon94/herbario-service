@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "derechos_accesos",
+  "info": {
+    "name": "derechos_acceso"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "deac_id": {
+      "type": "integer",
+      "unique": true
+    },
+    "deac_nombre": {
+      "type": "string",
+      "maxLength": 150
+    },
+    "registro_especimen": {
+      "via": "reg_idDerechosAcceso",
+      "collection": "registro-especimen"
+    }
+  }
+}

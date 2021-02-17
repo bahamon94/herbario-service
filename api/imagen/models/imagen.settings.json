@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imagens",
+  "info": {
+    "name": "imagen",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ima_especimen": {
+      "type": "integer"
+    },
+    "ima_imagen": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "ima_id_tipo_imagen": {
+      "model": "tipo-imagen",
+      "via": "imagens"
+    }
+  }
+}

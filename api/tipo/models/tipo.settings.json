@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipos",
+  "info": {
+    "name": "tipo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tip_id": {
+      "type": "integer",
+      "unique": true
+    },
+    "tip_nombre": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "registro_especimen": {
+      "via": "reg_idTipo",
+      "collection": "registro-especimen"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registro_especimen",
+  "info": {
+    "name": "registro_especimen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "reg_numCatalogo": {
+      "type": "string",
+      "maxLength": 6
+    },
+    "reg_nomComun": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "reg_idHabitat": {
+      "model": "habitat",
+      "via": "registro_especimen"
+    },
+    "reg_id_municipio": {
+      "model": "municipios",
+      "via": "registro_especimen"
+    },
+    "reg_centroPoblado": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "reg_localidad": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "reg_comentarioubicacion": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "reg_fechaColeccion": {
+      "type": "date"
+    },
+    "reg_idUsuarioIdentifica": {
+      "type": "biginteger"
+    },
+    "reg_fechaIdentifica": {
+      "type": "date"
+    },
+    "reg_idUsuarioCorrige": {
+      "type": "biginteger"
+    },
+    "reg_fechaCorrige": {
+      "type": "date"
+    },
+    "reg_alturaMin": {
+      "type": "string",
+      "maxLength": 5
+    },
+    "reg_alturaMax": {
+      "type": "string",
+      "maxLength": 5
+    },
+    "reg_idEstadoConservacion": {
+      "model": "estado-consevacion",
+      "via": "registro_especimen"
+    },
+    "reg_id_taxa": {
+      "model": "taxonomia",
+      "via": "registro_especimen"
+    },
+    "reg_idTitularDerechos": {
+      "model": "titular-derechos",
+      "via": "registro_especimen"
+    },
+    "reg_idMedioEstablecimiento": {
+      "model": "medio-establecimiento",
+      "via": "registro_especimen"
+    },
+    "reg_condicionReproductiva": {
+      "type": "string",
+      "maxLength": 150
+    },
+    "reg_idBaseRegistro": {
+      "model": "base-registro",
+      "via": "registro_especimen"
+    },
+    "reg_idTipo": {
+      "model": "tipo",
+      "via": "registro_especimen"
+    },
+    "reg_idIdioma": {
+      "type": "integer"
+    },
+    "reg_licencia": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "reg_idDerechosAcceso": {
+      "model": "derechos-acceso",
+      "via": "registro_especimen"
+    },
+    "reg_comentarioRegistroBiologico": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "reg_nombreConjuntoDatos": {
+      "type": "string",
+      "maxLength": 250
+    },
+    "reg_idDisposicion": {
+      "model": "disposicion",
+      "via": "registro_especimen"
+    },
+    "reg_preparaciones": {
+      "type": "string",
+      "maxLength": 100
+    }
+  }
+}

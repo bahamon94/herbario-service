@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/habitats",
+      "handler": "habitat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/habitats/count",
+      "handler": "habitat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/habitats/:id",
+      "handler": "habitat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/habitats",
+      "handler": "habitat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/habitats/:id",
+      "handler": "habitat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/habitats/:id",
+      "handler": "habitat.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/estado-consevacions",
+      "handler": "estado-consevacion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estado-consevacions/count",
+      "handler": "estado-consevacion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estado-consevacions/:id",
+      "handler": "estado-consevacion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/estado-consevacions",
+      "handler": "estado-consevacion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/estado-consevacions/:id",
+      "handler": "estado-consevacion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/estado-consevacions/:id",
+      "handler": "estado-consevacion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

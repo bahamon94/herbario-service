@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colectores",
+  "info": {
+    "name": "colectores",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "col_idEspecimen": {
+      "type": "integer"
+    },
+    "col_id_usuario": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "colectores"
+    }
+  }
+}

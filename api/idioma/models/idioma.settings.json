@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "idiomas",
+  "info": {
+    "name": "idioma"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "idio_nombre": {
+      "type": "string",
+      "maxLength": 20
+    }
+  }
+}

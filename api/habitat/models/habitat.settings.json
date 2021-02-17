@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "habitats",
+  "info": {
+    "name": "habitat"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "habitat_nombre": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "registro_especimen": {
+      "via": "reg_idHabitat",
+      "collection": "registro-especimen"
+    }
+  }
+}

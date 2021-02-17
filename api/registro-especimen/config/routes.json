@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/registro-especimen",
+      "handler": "registro-especimen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/registro-especimen/count",
+      "handler": "registro-especimen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/registro-especimen/:id",
+      "handler": "registro-especimen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/registro-especimen",
+      "handler": "registro-especimen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/registro-especimen/:id",
+      "handler": "registro-especimen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/registro-especimen/:id",
+      "handler": "registro-especimen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

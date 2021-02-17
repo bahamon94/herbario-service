@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias",
+  "info": {
+    "name": "categoria"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "cat_nombre": {
+      "type": "string",
+      "maxLength": 150
+    },
+    "taxonomias": {
+      "via": "tax_id_categoria",
+      "collection": "taxonomia"
+    }
+  }
+}

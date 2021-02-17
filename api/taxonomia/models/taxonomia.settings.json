@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "taxonomias",
+  "info": {
+    "name": "taxonomia"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tax_nombre": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "tax_id_padre": {
+      "type": "integer"
+    },
+    "tax_id_categoria": {
+      "model": "categoria",
+      "via": "taxonomias"
+    },
+    "tax_nombre_cientifico": {
+      "type": "string",
+      "maxLength": 150
+    },
+    "registro_especimen": {
+      "via": "reg_id_taxa",
+      "collection": "registro-especimen"
+    }
+  }
+}

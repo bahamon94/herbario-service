@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "municipios",
+  "info": {
+    "name": "municipios"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "municipi_id": {
+      "type": "integer",
+      "unique": true
+    },
+    "municipi_nombre": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "municipi_departamento": {
+      "model": "departamentos",
+      "via": "municipios"
+    },
+    "registro_especimen": {
+      "via": "reg_id_municipio",
+      "collection": "registro-especimen"
+    }
+  }
+}

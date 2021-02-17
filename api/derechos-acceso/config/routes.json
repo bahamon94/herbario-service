@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/derechos-accesos",
+      "handler": "derechos-acceso.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/derechos-accesos/count",
+      "handler": "derechos-acceso.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/derechos-accesos/:id",
+      "handler": "derechos-acceso.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/derechos-accesos",
+      "handler": "derechos-acceso.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/derechos-accesos/:id",
+      "handler": "derechos-acceso.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/derechos-accesos/:id",
+      "handler": "derechos-acceso.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
