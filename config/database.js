@@ -12,8 +12,6 @@ module.exports = ({ env }) => ({
         password: env('DATABASE_PASSWORD', 'herbario.123'),
       },
       options: {
-        ssl: env.bool('DATABASE_SSL', false),
-        authenticationDatabase: env('DATABASE_AUTHENTICATION_DATABASE', 'herbario_BD'),
       }
     },
   },
