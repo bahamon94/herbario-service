@@ -554,6 +554,48 @@
                     "type": "string"
                   }
                 },
+                "filo": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "clase": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "subclase": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "orden": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "especie": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "genero": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "subgenero": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "published_at": {
                   "type": "string"
                 },

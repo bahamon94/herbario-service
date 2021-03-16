@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "registro_especimen",
   "info": {
-    "name": "registro_especimen"
+    "name": "registro_especimen",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -115,6 +116,44 @@
     "reg_preparaciones": {
       "type": "string",
       "maxLength": 100
+    },
+    "reg_filo": {
+      "model": "taxonomia",
+      "via": "filo"
+    },
+    "reg_clase": {
+      "model": "taxonomia",
+      "via": "clase"
+    },
+    "reg_subclase": {
+      "model": "taxonomia",
+      "via": "subclase"
+    },
+    "reg_orden": {
+      "model": "taxonomia",
+      "via": "orden"
+    },
+    "reg_familia": {
+      "model": "taxonomia"
+    },
+    "reg_subfamilia": {
+      "model": "taxonomia"
+    },
+    "reg_especie": {
+      "model": "taxonomia",
+      "via": "especie"
+    },
+    "reg_genero": {
+      "model": "taxonomia",
+      "via": "genero"
+    },
+    "reg_subgenero": {
+      "model": "taxonomia",
+      "via": "subgenero"
+    },
+    "reg_epiteto": {
+      "model": "base-registro",
+      "via": "epiteto"
     }
   }
 }

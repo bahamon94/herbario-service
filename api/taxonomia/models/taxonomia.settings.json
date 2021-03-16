@@ -28,6 +28,34 @@
     "registro_especimen": {
       "via": "reg_id_taxa",
       "collection": "registro-especimen"
+    },
+    "filo": {
+      "via": "reg_filo",
+      "collection": "registro-especimen"
+    },
+    "clase": {
+      "via": "reg_clase",
+      "collection": "registro-especimen"
+    },
+    "subclase": {
+      "via": "reg_subclase",
+      "collection": "registro-especimen"
+    },
+    "orden": {
+      "via": "reg_orden",
+      "collection": "registro-especimen"
+    },
+    "especie": {
+      "via": "reg_especie",
+      "collection": "registro-especimen"
+    },
+    "genero": {
+      "via": "reg_genero",
+      "collection": "registro-especimen"
+    },
+    "subgenero": {
+      "via": "reg_subgenero",
+      "collection": "registro-especimen"
     }
   }
 }

@@ -8,8 +8,8 @@ module.exports = ({ env }) => ({
         host: env('DATABASE_HOST', '127.0.0.1'),
         port: env.int('DATABASE_PORT', 5432),
         database: env('DATABASE_NAME', 'herbario_BD'),
-        username: env('DATABASE_USERNAME', 'herbario'),
-        password: env('DATABASE_PASSWORD', 'colombia2021'),
+        username: env('DATABASE_USERNAME', 'postgres'),
+        password: env('DATABASE_PASSWORD', 'herbario.123'),
       },
       options: {
         ssl: false,

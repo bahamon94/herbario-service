@@ -636,6 +636,36 @@
                 "reg_preparaciones": {
                   "type": "string"
                 },
+                "reg_filo": {
+                  "type": "string"
+                },
+                "reg_clase": {
+                  "type": "string"
+                },
+                "reg_subclase": {
+                  "type": "string"
+                },
+                "reg_orden": {
+                  "type": "string"
+                },
+                "reg_familia": {
+                  "type": "string"
+                },
+                "reg_subfamilia": {
+                  "type": "string"
+                },
+                "reg_especie": {
+                  "type": "string"
+                },
+                "reg_genero": {
+                  "type": "string"
+                },
+                "reg_subgenero": {
+                  "type": "string"
+                },
+                "reg_epiteto": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
