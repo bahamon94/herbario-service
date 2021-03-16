@@ -576,9 +576,6 @@
                 "reg_fechaColeccion": {
                   "type": "string"
                 },
-                "reg_idUsuarioIdentifica": {
-                  "type": "integer"
-                },
                 "reg_fechaIdentifica": {
                   "type": "string"
                 },
@@ -664,6 +661,18 @@
                   "type": "string"
                 },
                 "reg_epiteto": {
+                  "type": "string"
+                },
+                "reg_idUsuarioIdentifica": {
+                  "type": "string"
+                },
+                "numColector": {
+                  "type": "string"
+                },
+                "latitud": {
+                  "type": "string"
+                },
+                "longitud": {
                   "type": "string"
                 },
                 "published_at": {

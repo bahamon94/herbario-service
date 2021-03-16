@@ -621,9 +621,6 @@
             "type": "string",
             "format": "date"
           },
-          "reg_idUsuarioIdentifica": {
-            "type": "integer"
-          },
           "reg_fechaIdentifica": {
             "type": "string",
             "format": "date"
@@ -734,6 +731,12 @@
                 }
               },
               "subgenero": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epiteto": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1039,6 +1042,12 @@
                   "type": "string"
                 }
               },
+              "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1113,6 +1122,12 @@
                 }
               },
               "subgenero": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epiteto": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1197,6 +1212,12 @@
                   "type": "string"
                 }
               },
+              "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1271,6 +1292,12 @@
                 }
               },
               "subgenero": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epiteto": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1355,6 +1382,12 @@
                   "type": "string"
                 }
               },
+              "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1429,6 +1462,12 @@
                 }
               },
               "subgenero": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epiteto": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1513,6 +1552,12 @@
                   "type": "string"
                 }
               },
+              "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1587,6 +1632,12 @@
                 }
               },
               "subgenero": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epiteto": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1671,6 +1722,12 @@
                   "type": "string"
                 }
               },
+              "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1690,13 +1747,61 @@
               "id": {
                 "type": "string"
               },
-              "bare_id": {
+              "tax_nombre": {
+                "type": "string"
+              },
+              "tax_id_padre": {
                 "type": "integer"
               },
-              "bare_nombre": {
+              "tax_id_categoria": {
+                "type": "string"
+              },
+              "tax_nombre_cientifico": {
                 "type": "string"
               },
               "registro_especimen": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "filo": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clase": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclase": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "orden": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especie": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "genero": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgenero": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1718,6 +1823,18 @@
                 "type": "string"
               }
             }
+          },
+          "reg_idUsuarioIdentifica": {
+            "type": "string"
+          },
+          "numColector": {
+            "type": "string"
+          },
+          "latitud": {
+            "type": "string"
+          },
+          "longitud": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -1756,9 +1873,6 @@
           "reg_fechaColeccion": {
             "type": "string",
             "format": "date"
-          },
-          "reg_idUsuarioIdentifica": {
-            "type": "integer"
           },
           "reg_fechaIdentifica": {
             "type": "string",
@@ -1854,6 +1968,18 @@
             "type": "string"
           },
           "reg_epiteto": {
+            "type": "string"
+          },
+          "reg_idUsuarioIdentifica": {
+            "type": "string"
+          },
+          "numColector": {
+            "type": "string"
+          },
+          "latitud": {
+            "type": "string"
+          },
+          "longitud": {
             "type": "string"
           },
           "published_at": {

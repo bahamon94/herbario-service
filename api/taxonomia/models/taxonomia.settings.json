@@ -56,6 +56,10 @@
     "subgenero": {
       "via": "reg_subgenero",
       "collection": "registro-especimen"
+    },
+    "epiteto": {
+      "via": "reg_epiteto",
+      "collection": "registro-especimen"
     }
   }
 }

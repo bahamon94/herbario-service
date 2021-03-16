@@ -42,9 +42,6 @@
     "reg_fechaColeccion": {
       "type": "date"
     },
-    "reg_idUsuarioIdentifica": {
-      "type": "biginteger"
-    },
     "reg_fechaIdentifica": {
       "type": "date"
     },
@@ -152,8 +149,20 @@
       "via": "subgenero"
     },
     "reg_epiteto": {
-      "model": "base-registro",
+      "model": "taxonomia",
       "via": "epiteto"
+    },
+    "reg_idUsuarioIdentifica": {
+      "type": "string"
+    },
+    "numColector": {
+      "type": "string"
+    },
+    "latitud": {
+      "type": "string"
+    },
+    "longitud": {
+      "type": "string"
     }
   }
 }
