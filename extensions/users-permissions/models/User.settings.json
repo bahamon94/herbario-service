@@ -60,8 +60,26 @@
       "configurable": false
     },
     "colectores": {
-      "via": "col_id_usuario",
-      "collection": "colectores"
+      "collection": "colectores",
+      "via": "col_id_usuario"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "Apellido": {
+      "type": "string"
+    },
+    "numeroDocumento": {
+      "type": "biginteger"
+    },
+    "celular": {
+      "type": "biginteger"
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "tipoDocumento": {
+      "type": "string"
     }
   }
 }

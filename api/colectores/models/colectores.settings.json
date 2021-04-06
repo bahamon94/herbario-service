@@ -15,9 +15,9 @@
       "type": "integer"
     },
     "col_id_usuario": {
+      "via": "colectores",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "colectores"
+      "model": "user"
     }
   }
 }
