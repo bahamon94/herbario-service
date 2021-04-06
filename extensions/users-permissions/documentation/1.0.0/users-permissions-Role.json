@@ -567,6 +567,24 @@
                     "type": "string"
                   }
                 },
+                "nombre": {
+                  "type": "string"
+                },
+                "Apellido": {
+                  "type": "string"
+                },
+                "numeroDocumento": {
+                  "type": "integer"
+                },
+                "celular": {
+                  "type": "integer"
+                },
+                "direccion": {
+                  "type": "string"
+                },
+                "tipoDocumento": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },

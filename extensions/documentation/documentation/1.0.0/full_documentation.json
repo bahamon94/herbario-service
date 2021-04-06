@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "03/15/2021 9:38:22 PM"
+    "x-generation-date": "04/06/2021 1:45:56 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -12474,6 +12474,24 @@
                   "type": "string"
                 }
               },
+              "nombre": {
+                "type": "string"
+              },
+              "Apellido": {
+                "type": "string"
+              },
+              "numeroDocumento": {
+                "type": "integer"
+              },
+              "celular": {
+                "type": "integer"
+              },
+              "direccion": {
+                "type": "string"
+              },
+              "tipoDocumento": {
+                "type": "string"
+              },
               "created_by": {
                 "type": "string"
               },
@@ -17701,6 +17719,24 @@
                     "type": "string"
                   }
                 },
+                "nombre": {
+                  "type": "string"
+                },
+                "Apellido": {
+                  "type": "string"
+                },
+                "numeroDocumento": {
+                  "type": "integer"
+                },
+                "celular": {
+                  "type": "integer"
+                },
+                "direccion": {
+                  "type": "string"
+                },
+                "tipoDocumento": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -17841,6 +17877,24 @@
                 }
               }
             }
+          },
+          "nombre": {
+            "type": "string"
+          },
+          "Apellido": {
+            "type": "string"
+          },
+          "numeroDocumento": {
+            "type": "integer"
+          },
+          "celular": {
+            "type": "integer"
+          },
+          "direccion": {
+            "type": "string"
+          },
+          "tipoDocumento": {
+            "type": "string"
           }
         }
       },
@@ -17888,6 +17942,24 @@
             "items": {
               "type": "string"
             }
+          },
+          "nombre": {
+            "type": "string"
+          },
+          "Apellido": {
+            "type": "string"
+          },
+          "numeroDocumento": {
+            "type": "integer"
+          },
+          "celular": {
+            "type": "integer"
+          },
+          "direccion": {
+            "type": "string"
+          },
+          "tipoDocumento": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"
