@@ -589,6 +589,12 @@
                     "type": "string"
                   }
                 },
+                "registro_especimen": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "published_at": {
                   "type": "string"
                 },
