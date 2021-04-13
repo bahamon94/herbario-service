@@ -552,6 +552,12 @@
                   "type": "string"
                 }
               },
+              "registro_especimen": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -694,6 +700,27 @@
                   "type": "string"
                 },
                 "longitud": {
+                  "type": "string"
+                },
+                "reg_departamento": {
+                  "type": "string"
+                },
+                "reg_nombreCientifico": {
+                  "type": "string"
+                },
+                "reg_autoriaNombreCientifico": {
+                  "type": "string"
+                },
+                "reg_categoriaTaxon": {
+                  "type": "string"
+                },
+                "reg_comentarioIdentifica": {
+                  "type": "string"
+                },
+                "reg_usos": {
+                  "type": "string"
+                },
+                "reg_habito": {
                   "type": "string"
                 },
                 "published_at": {

@@ -25,6 +25,10 @@
     "municipios": {
       "via": "municipi_departamento",
       "collection": "municipios"
+    },
+    "registro_especimen": {
+      "via": "reg_departamento",
+      "collection": "registro-especimen"
     }
   }
 }

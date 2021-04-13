@@ -1836,6 +1836,64 @@
           "longitud": {
             "type": "string"
           },
+          "reg_departamento": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "dept_id": {
+                "type": "integer"
+              },
+              "dept_nombre": {
+                "type": "string"
+              },
+              "dept_pais": {
+                "type": "string"
+              },
+              "municipios": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_especimen": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "reg_nombreCientifico": {
+            "type": "string"
+          },
+          "reg_autoriaNombreCientifico": {
+            "type": "string"
+          },
+          "reg_categoriaTaxon": {
+            "type": "string"
+          },
+          "reg_comentarioIdentifica": {
+            "type": "string"
+          },
+          "reg_usos": {
+            "type": "string"
+          },
+          "reg_habito": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -1980,6 +2038,27 @@
             "type": "string"
           },
           "longitud": {
+            "type": "string"
+          },
+          "reg_departamento": {
+            "type": "string"
+          },
+          "reg_nombreCientifico": {
+            "type": "string"
+          },
+          "reg_autoriaNombreCientifico": {
+            "type": "string"
+          },
+          "reg_categoriaTaxon": {
+            "type": "string"
+          },
+          "reg_comentarioIdentifica": {
+            "type": "string"
+          },
+          "reg_usos": {
+            "type": "string"
+          },
+          "reg_habito": {
             "type": "string"
           },
           "published_at": {
