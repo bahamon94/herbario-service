@@ -742,6 +742,12 @@
                   "type": "string"
                 }
               },
+              "registro_especimen_infraespecifico": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1048,6 +1054,12 @@
                   "type": "string"
                 }
               },
+              "registro_especimen_infraespecifico": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1128,6 +1140,12 @@
                 }
               },
               "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_especimen_infraespecifico": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1218,6 +1236,12 @@
                   "type": "string"
                 }
               },
+              "registro_especimen_infraespecifico": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1298,6 +1322,12 @@
                 }
               },
               "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_especimen_infraespecifico": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1388,6 +1418,12 @@
                   "type": "string"
                 }
               },
+              "registro_especimen_infraespecifico": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1468,6 +1504,12 @@
                 }
               },
               "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_especimen_infraespecifico": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1558,6 +1600,12 @@
                   "type": "string"
                 }
               },
+              "registro_especimen_infraespecifico": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1638,6 +1686,12 @@
                 }
               },
               "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_especimen_infraespecifico": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1728,6 +1782,12 @@
                   "type": "string"
                 }
               },
+              "registro_especimen_infraespecifico": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
@@ -1808,6 +1868,12 @@
                 }
               },
               "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_especimen_infraespecifico": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1961,6 +2027,97 @@
                 "updated_by": {
                   "type": "string"
                 }
+              }
+            }
+          },
+          "reg_epitetoInfraespecifico": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "tax_nombre": {
+                "type": "string"
+              },
+              "tax_id_padre": {
+                "type": "integer"
+              },
+              "tax_id_categoria": {
+                "type": "string"
+              },
+              "tax_nombre_cientifico": {
+                "type": "string"
+              },
+              "registro_especimen": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "filo": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clase": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclase": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "orden": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especie": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "genero": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgenero": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_especimen_infraespecifico": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
               }
             }
           },
@@ -2129,6 +2286,9 @@
             "type": "string"
           },
           "reg_habito": {
+            "type": "string"
+          },
+          "reg_epitetoInfraespecifico": {
             "type": "string"
           },
           "published_at": {
