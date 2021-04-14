@@ -185,6 +185,17 @@
     },
     "reg_habito": {
       "type": "string"
+    },
+    "reg_imgEspecimen": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
