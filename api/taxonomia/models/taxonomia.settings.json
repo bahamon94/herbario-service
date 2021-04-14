@@ -60,6 +60,10 @@
     "epiteto": {
       "via": "reg_epiteto",
       "collection": "registro-especimen"
+    },
+    "registro_especimen_infraespecifico": {
+      "via": "reg_epitetoInfraespecifico",
+      "collection": "registro-especimen"
     }
   }
 }

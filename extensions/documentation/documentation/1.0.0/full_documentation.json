@@ -27,11 +27,11 @@
       "description": "Development server"
     },
     {
-      "url": "YOUR_STAGING_SERVER",
+      "url": "104.236.73.125:1337",
       "description": "Staging server"
     },
     {
-      "url": "YOUR_PRODUCTION_SERVER",
+      "url": "104.236.73.125:1337",
       "description": "Production server"
     }
   ],

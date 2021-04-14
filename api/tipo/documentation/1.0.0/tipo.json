@@ -689,6 +689,9 @@
                     "type": "string"
                   }
                 },
+                "reg_epitetoInfraespecifico": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },

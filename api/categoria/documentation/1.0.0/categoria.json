@@ -602,6 +602,12 @@
                     "type": "string"
                   }
                 },
+                "registro_especimen_infraespecifico": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "published_at": {
                   "type": "string"
                 },

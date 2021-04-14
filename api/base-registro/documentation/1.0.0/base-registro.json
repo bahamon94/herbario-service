@@ -702,6 +702,9 @@
                     "type": "string"
                   }
                 },
+                "reg_epitetoInfraespecifico": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -873,6 +876,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "reg_epitetoInfraespecifico": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
