@@ -200,6 +200,9 @@
     "reg_epitetoInfraespecifico": {
       "model": "taxonomia",
       "via": "registro_especimen_infraespecifico"
+    },
+    "reg_imagenesEspecimen": {
+      "type": "json"
     }
   }
 }

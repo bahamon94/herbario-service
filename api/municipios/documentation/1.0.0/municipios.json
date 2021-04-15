@@ -732,6 +732,9 @@
                 "reg_epitetoInfraespecifico": {
                   "type": "string"
                 },
+                "reg_imagenesEspecimen": {
+                  "type": "object"
+                },
                 "published_at": {
                   "type": "string"
                 },
