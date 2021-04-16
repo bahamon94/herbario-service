@@ -186,23 +186,15 @@
     "reg_habito": {
       "type": "string"
     },
-    "reg_imgEspecimen": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "reg_epitetoInfraespecifico": {
       "model": "taxonomia",
       "via": "registro_especimen_infraespecifico"
     },
     "reg_imagenesEspecimen": {
       "type": "json"
+    },
+    "reg_colectores": {
+      "type": "string"
     }
   }
 }

@@ -715,17 +715,14 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_imgEspecimen": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "reg_epitetoInfraespecifico": {
                   "type": "string"
                 },
                 "reg_imagenesEspecimen": {
                   "type": "object"
+                },
+                "reg_colectores": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -893,17 +890,14 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_imgEspecimen": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "reg_epitetoInfraespecifico": {
                   "type": "string"
                 },
                 "reg_imagenesEspecimen": {
                   "type": "object"
+                },
+                "reg_colectores": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -1071,17 +1065,14 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_imgEspecimen": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "reg_epitetoInfraespecifico": {
                   "type": "string"
                 },
                 "reg_imagenesEspecimen": {
                   "type": "object"
+                },
+                "reg_colectores": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -1249,17 +1240,14 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_imgEspecimen": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "reg_epitetoInfraespecifico": {
                   "type": "string"
                 },
                 "reg_imagenesEspecimen": {
                   "type": "object"
+                },
+                "reg_colectores": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -1427,17 +1415,14 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_imgEspecimen": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "reg_epitetoInfraespecifico": {
                   "type": "string"
                 },
                 "reg_imagenesEspecimen": {
                   "type": "object"
+                },
+                "reg_colectores": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -1605,17 +1590,14 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_imgEspecimen": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "reg_epitetoInfraespecifico": {
                   "type": "string"
                 },
                 "reg_imagenesEspecimen": {
                   "type": "object"
+                },
+                "reg_colectores": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -1783,17 +1765,14 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_imgEspecimen": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "reg_epitetoInfraespecifico": {
                   "type": "string"
                 },
                 "reg_imagenesEspecimen": {
                   "type": "object"
+                },
+                "reg_colectores": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -1961,17 +1940,14 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_imgEspecimen": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "reg_epitetoInfraespecifico": {
                   "type": "string"
                 },
                 "reg_imagenesEspecimen": {
                   "type": "object"
+                },
+                "reg_colectores": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -2139,17 +2115,14 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_imgEspecimen": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "reg_epitetoInfraespecifico": {
                   "type": "string"
                 },
                 "reg_imagenesEspecimen": {
                   "type": "object"
+                },
+                "reg_colectores": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -2317,17 +2290,14 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_imgEspecimen": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "reg_epitetoInfraespecifico": {
                   "type": "string"
                 },
                 "reg_imagenesEspecimen": {
                   "type": "object"
+                },
+                "reg_colectores": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
