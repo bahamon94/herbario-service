@@ -21,6 +21,10 @@
     "registro_especimen": {
       "via": "reg_idTipo",
       "collection": "registro-especimen"
+    },
+    "historial_correccions": {
+      "via": "reg_id_tipo",
+      "collection": "historial-correccion"
     }
   }
 }

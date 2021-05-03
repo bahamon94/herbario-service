@@ -1,12 +1,12 @@
 {
   "paths": {
-    "/registro-especimen": {
+    "/historial-correccions": {
       "get": {
         "deprecated": false,
-        "description": "Find all the registro-especimen's records",
+        "description": "",
         "responses": {
           "200": {
-            "description": "Retrieve registro-especimen document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
@@ -52,7 +52,7 @@
         },
         "summary": "",
         "tags": [
-          "Registro-especimen"
+          "Historial-correccion"
         ],
         "parameters": [
           {
@@ -195,10 +195,10 @@
       },
       "post": {
         "deprecated": false,
-        "description": "Create a new registro-especimen record",
+        "description": "Create a new record",
         "responses": {
           "200": {
-            "description": "Retrieve registro-especimen document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
@@ -244,7 +244,7 @@
         },
         "summary": "",
         "tags": [
-          "Registro-especimen"
+          "Historial-correccion"
         ],
         "requestBody": {
           "description": "",
@@ -252,20 +252,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewRegistro-especimen"
+                "$ref": "#/components/schemas/NewHistorial-correccion"
               }
             }
           }
         }
       }
     },
-    "/registro-especimen/count": {
+    "/historial-correccions/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of registro-especimen documents",
+        "description": "",
         "responses": {
           "200": {
-            "description": "Retrieve registro-especimen document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
@@ -311,18 +311,18 @@
         },
         "summary": "",
         "tags": [
-          "Registro-especimen"
+          "Historial-correccion"
         ],
         "parameters": []
       }
     },
-    "/registro-especimen/{id}": {
+    "/historial-correccions/{id}": {
       "get": {
         "deprecated": false,
-        "description": "Find one registro-especimen record",
+        "description": "",
         "responses": {
           "200": {
-            "description": "Retrieve registro-especimen document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
@@ -368,7 +368,7 @@
         },
         "summary": "",
         "tags": [
-          "Registro-especimen"
+          "Historial-correccion"
         ],
         "parameters": [
           {
@@ -385,10 +385,10 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a single registro-especimen record",
+        "description": "Update a record",
         "responses": {
           "200": {
-            "description": "Retrieve registro-especimen document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
@@ -434,7 +434,7 @@
         },
         "summary": "",
         "tags": [
-          "Registro-especimen"
+          "Historial-correccion"
         ],
         "requestBody": {
           "description": "",
@@ -442,7 +442,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewRegistro-especimen"
+                "$ref": "#/components/schemas/NewHistorial-correccion"
               }
             }
           }
@@ -462,10 +462,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a single registro-especimen record",
+        "description": "Delete a record",
         "responses": {
           "200": {
-            "description": "deletes a single registro-especimen based on the ID supplied",
+            "description": "deletes a single record based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -508,7 +508,7 @@
         },
         "summary": "",
         "tags": [
-          "Registro-especimen"
+          "Historial-correccion"
         ],
         "parameters": [
           {
@@ -527,7 +527,7 @@
   },
   "components": {
     "schemas": {
-      "Registro-especimen": {
+      "Historial-correccion": {
         "required": [
           "id"
         ],
@@ -536,46 +536,10 @@
             "type": "string"
           },
           "reg_numCatalogo": {
-            "type": "string",
-            "maxLength": 6
+            "type": "string"
           },
           "reg_nomComun": {
-            "type": "string",
-            "maxLength": 50
-          },
-          "reg_idHabitat": {
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "habitat_nombre": {
-                "type": "string"
-              },
-              "registro_especimen": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
+            "type": "string"
           },
           "reg_id_municipio": {
             "required": [
@@ -617,17 +581,48 @@
               }
             }
           },
+          "reg_id_habitat": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "habitat_nombre": {
+                "type": "string"
+              },
+              "registro_especimen": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "historial_correccions": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "reg_centroPoblado": {
-            "type": "string",
-            "maxLength": 200
+            "type": "string"
           },
           "reg_localidad": {
-            "type": "string",
-            "maxLength": 300
+            "type": "string"
           },
           "reg_comentarioubicacion": {
-            "type": "string",
-            "maxLength": 300
+            "type": "string"
           },
           "reg_fechaColeccion": {
             "type": "string",
@@ -645,14 +640,12 @@
             "format": "date"
           },
           "reg_alturaMin": {
-            "type": "string",
-            "maxLength": 5
+            "type": "string"
           },
           "reg_alturaMax": {
-            "type": "string",
-            "maxLength": 5
+            "type": "string"
           },
-          "reg_idEstadoConservacion": {
+          "reg_id_estado_conservacion": {
             "required": [
               "id"
             ],
@@ -783,7 +776,7 @@
               }
             }
           },
-          "reg_idTitularDerechos": {
+          "titular_derecho": {
             "required": [
               "id"
             ],
@@ -826,7 +819,7 @@
               }
             }
           },
-          "reg_idMedioEstablecimiento": {
+          "reg_id_medio_establecimiento": {
             "required": [
               "id"
             ],
@@ -864,10 +857,9 @@
             }
           },
           "reg_condicionReproductiva": {
-            "type": "string",
-            "maxLength": 150
+            "type": "string"
           },
-          "reg_idBaseRegistro": {
+          "reg_id_base_registro": {
             "required": [
               "id"
             ],
@@ -910,7 +902,7 @@
               }
             }
           },
-          "reg_idTipo": {
+          "reg_id_tipo": {
             "required": [
               "id"
             ],
@@ -951,10 +943,9 @@
             "type": "integer"
           },
           "reg_licencia": {
-            "type": "string",
-            "maxLength": 30
+            "type": "string"
           },
-          "reg_idDerechosAcceso": {
+          "reg_id_derechos_acceso": {
             "required": [
               "id"
             ],
@@ -992,14 +983,12 @@
             }
           },
           "reg_comentarioRegistroBiologico": {
-            "type": "string",
-            "maxLength": 200
+            "type": "string"
           },
           "reg_nombreConjuntoDatos": {
-            "type": "string",
-            "maxLength": 250
+            "type": "string"
           },
-          "reg_idDisposicion": {
+          "reg_id_disposicion": {
             "required": [
               "id"
             ],
@@ -1037,8 +1026,7 @@
             }
           },
           "reg_preparaciones": {
-            "type": "string",
-            "maxLength": 100
+            "type": "string"
           },
           "reg_filo": {
             "required": [
@@ -2087,104 +2075,7 @@
             "type": "string"
           },
           "reg_epitetoInfraespecifico": {
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "tax_nombre": {
-                "type": "string"
-              },
-              "tax_id_padre": {
-                "type": "integer"
-              },
-              "tax_id_categoria": {
-                "type": "string"
-              },
-              "tax_nombre_cientifico": {
-                "type": "string"
-              },
-              "registro_especimen": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "filo": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "clase": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "subclase": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "orden": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "especie": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "genero": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "subgenero": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "epiteto": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "registro_especimen_infraespecifico": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
-          "reg_imagenesEspecimen": {
-            "type": "object"
+            "type": "string"
           },
           "reg_colectores": {
             "type": "string"
@@ -2195,33 +2086,28 @@
           }
         }
       },
-      "NewRegistro-especimen": {
+      "NewHistorial-correccion": {
         "properties": {
           "reg_numCatalogo": {
-            "type": "string",
-            "maxLength": 6
+            "type": "string"
           },
           "reg_nomComun": {
-            "type": "string",
-            "maxLength": 50
-          },
-          "reg_idHabitat": {
             "type": "string"
           },
           "reg_id_municipio": {
             "type": "string"
           },
+          "reg_id_habitat": {
+            "type": "string"
+          },
           "reg_centroPoblado": {
-            "type": "string",
-            "maxLength": 200
+            "type": "string"
           },
           "reg_localidad": {
-            "type": "string",
-            "maxLength": 300
+            "type": "string"
           },
           "reg_comentarioubicacion": {
-            "type": "string",
-            "maxLength": 300
+            "type": "string"
           },
           "reg_fechaColeccion": {
             "type": "string",
@@ -2239,59 +2125,52 @@
             "format": "date"
           },
           "reg_alturaMin": {
-            "type": "string",
-            "maxLength": 5
+            "type": "string"
           },
           "reg_alturaMax": {
-            "type": "string",
-            "maxLength": 5
+            "type": "string"
           },
-          "reg_idEstadoConservacion": {
+          "reg_id_estado_conservacion": {
             "type": "string"
           },
           "reg_id_taxa": {
             "type": "string"
           },
-          "reg_idTitularDerechos": {
+          "titular_derecho": {
             "type": "string"
           },
-          "reg_idMedioEstablecimiento": {
+          "reg_id_medio_establecimiento": {
             "type": "string"
           },
           "reg_condicionReproductiva": {
-            "type": "string",
-            "maxLength": 150
-          },
-          "reg_idBaseRegistro": {
             "type": "string"
           },
-          "reg_idTipo": {
+          "reg_id_base_registro": {
+            "type": "string"
+          },
+          "reg_id_tipo": {
             "type": "string"
           },
           "reg_idIdioma": {
             "type": "integer"
           },
           "reg_licencia": {
-            "type": "string",
-            "maxLength": 30
+            "type": "string"
           },
-          "reg_idDerechosAcceso": {
+          "reg_id_derechos_acceso": {
             "type": "string"
           },
           "reg_comentarioRegistroBiologico": {
-            "type": "string",
-            "maxLength": 200
+            "type": "string"
           },
           "reg_nombreConjuntoDatos": {
-            "type": "string",
-            "maxLength": 250
+            "type": "string"
           },
-          "reg_idDisposicion": {
+          "reg_id_disposicion": {
             "type": "string"
           },
           "reg_preparaciones": {
-            "type": "string",
-            "maxLength": 100
+            "type": "string"
           },
           "reg_filo": {
             "type": "string"
@@ -2358,9 +2237,6 @@
           },
           "reg_epitetoInfraespecifico": {
             "type": "string"
-          },
-          "reg_imagenesEspecimen": {
-            "type": "object"
           },
           "reg_colectores": {
             "type": "string"
