@@ -21,6 +21,10 @@
     "registro_especimen": {
       "via": "reg_idMedioEstablecimiento",
       "collection": "registro-especimen"
+    },
+    "historial_correccions": {
+      "via": "reg_id_medio_establecimiento",
+      "collection": "historial-correccion"
     }
   }
 }

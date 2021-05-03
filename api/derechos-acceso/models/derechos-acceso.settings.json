@@ -21,6 +21,10 @@
     "registro_especimen": {
       "via": "reg_idDerechosAcceso",
       "collection": "registro-especimen"
+    },
+    "historial_correccions": {
+      "via": "reg_id_derechos_acceso",
+      "collection": "historial-correccion"
     }
   }
 }
