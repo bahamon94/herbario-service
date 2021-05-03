@@ -1,12 +1,12 @@
 {
   "paths": {
-    "/historial-correccions": {
+    "/historico-correcciones": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find all the historico-correcciones's records",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve historico-correcciones document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -52,7 +52,7 @@
         },
         "summary": "",
         "tags": [
-          "Historial-correccion"
+          "Historico-correcciones"
         ],
         "parameters": [
           {
@@ -195,10 +195,10 @@
       },
       "post": {
         "deprecated": false,
-        "description": "Create a new record",
+        "description": "Create a new historico-correcciones record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve historico-correcciones document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -244,7 +244,7 @@
         },
         "summary": "",
         "tags": [
-          "Historial-correccion"
+          "Historico-correcciones"
         ],
         "requestBody": {
           "description": "",
@@ -252,20 +252,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewHistorial-correccion"
+                "$ref": "#/components/schemas/NewHistorico-correcciones"
               }
             }
           }
         }
       }
     },
-    "/historial-correccions/count": {
+    "/historico-correcciones/count": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Retrieve the numver of historico-correcciones documents",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve historico-correcciones document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -311,18 +311,18 @@
         },
         "summary": "",
         "tags": [
-          "Historial-correccion"
+          "Historico-correcciones"
         ],
         "parameters": []
       }
     },
-    "/historial-correccions/{id}": {
+    "/historico-correcciones/{id}": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find one historico-correcciones record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve historico-correcciones document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -368,7 +368,7 @@
         },
         "summary": "",
         "tags": [
-          "Historial-correccion"
+          "Historico-correcciones"
         ],
         "parameters": [
           {
@@ -385,10 +385,10 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a record",
+        "description": "Update a single historico-correcciones record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve historico-correcciones document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -434,7 +434,7 @@
         },
         "summary": "",
         "tags": [
-          "Historial-correccion"
+          "Historico-correcciones"
         ],
         "requestBody": {
           "description": "",
@@ -442,7 +442,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewHistorial-correccion"
+                "$ref": "#/components/schemas/NewHistorico-correcciones"
               }
             }
           }
@@ -462,10 +462,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a record",
+        "description": "Delete a single historico-correcciones record",
         "responses": {
           "200": {
-            "description": "deletes a single record based on the ID supplied",
+            "description": "deletes a single historico-correcciones based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -508,7 +508,7 @@
         },
         "summary": "",
         "tags": [
-          "Historial-correccion"
+          "Historico-correcciones"
         ],
         "parameters": [
           {
@@ -527,7 +527,7 @@
   },
   "components": {
     "schemas": {
-      "Historial-correccion": {
+      "Historico-correcciones": {
         "required": [
           "id"
         ],
@@ -540,6 +540,40 @@
           },
           "reg_nomComun": {
             "type": "string"
+          },
+          "reg_idHabitat": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "habitat_nombre": {
+                "type": "string"
+              },
+              "registro_especimen": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "historico_correcciones": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           },
           "reg_id_municipio": {
             "required": [
@@ -564,41 +598,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
-          "reg_id_habitat": {
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "habitat_nombre": {
-                "type": "string"
-              },
-              "registro_especimen": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -645,7 +645,7 @@
           "reg_alturaMax": {
             "type": "string"
           },
-          "reg_id_estado_conservacion": {
+          "reg_idEstadoConservacion": {
             "required": [
               "id"
             ],
@@ -662,7 +662,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -679,104 +679,7 @@
               }
             }
           },
-          "reg_id_taxa": {
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "tax_nombre": {
-                "type": "string"
-              },
-              "tax_id_padre": {
-                "type": "integer"
-              },
-              "tax_id_categoria": {
-                "type": "string"
-              },
-              "tax_nombre_cientifico": {
-                "type": "string"
-              },
-              "registro_especimen": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "filo": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "clase": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "subclase": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "orden": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "especie": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "genero": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "subgenero": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "epiteto": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "registro_especimen_infraespecifico": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
-          "titular_derecho": {
+          "reg_idTitularDerechos": {
             "required": [
               "id"
             ],
@@ -802,7 +705,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -819,7 +722,7 @@
               }
             }
           },
-          "reg_id_medio_establecimiento": {
+          "reg_idMedioEstablecimiento": {
             "required": [
               "id"
             ],
@@ -839,7 +742,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -859,7 +762,7 @@
           "reg_condicionReproductiva": {
             "type": "string"
           },
-          "reg_id_base_registro": {
+          "reg_idBaseRegistro": {
             "required": [
               "id"
             ],
@@ -885,7 +788,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -902,7 +805,7 @@
               }
             }
           },
-          "reg_id_tipo": {
+          "reg_idTipo": {
             "required": [
               "id"
             ],
@@ -922,7 +825,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -945,7 +848,7 @@
           "reg_licencia": {
             "type": "string"
           },
-          "reg_id_derechos_acceso": {
+          "reg_idDerechosAcceso": {
             "required": [
               "id"
             ],
@@ -965,7 +868,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -988,7 +891,7 @@
           "reg_nombreConjuntoDatos": {
             "type": "string"
           },
-          "reg_id_disposicion": {
+          "reg_idDisposicion": {
             "required": [
               "id"
             ],
@@ -1008,7 +911,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1108,7 +1011,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1205,7 +1156,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1302,7 +1301,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1399,7 +1446,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1496,7 +1591,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1593,7 +1736,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1690,7 +1881,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1787,7 +2026,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1884,7 +2171,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1981,7 +2316,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -2039,7 +2422,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -2074,8 +2457,150 @@
           "reg_habito": {
             "type": "string"
           },
-          "reg_epitetoInfraespecifico": {
-            "type": "string"
+          "reg_epiteto_infraespecifico": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "tax_nombre": {
+                "type": "string"
+              },
+              "tax_id_padre": {
+                "type": "integer"
+              },
+              "tax_id_categoria": {
+                "type": "string"
+              },
+              "tax_nombre_cientifico": {
+                "type": "string"
+              },
+              "registro_especimen": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "filo": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clase": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclase": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "orden": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especie": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "genero": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgenero": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epiteto": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_especimen_infraespecifico": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           },
           "reg_colectores": {
             "type": "string"
@@ -2086,7 +2611,7 @@
           }
         }
       },
-      "NewHistorial-correccion": {
+      "NewHistorico-correcciones": {
         "properties": {
           "reg_numCatalogo": {
             "type": "string"
@@ -2094,10 +2619,10 @@
           "reg_nomComun": {
             "type": "string"
           },
-          "reg_id_municipio": {
+          "reg_idHabitat": {
             "type": "string"
           },
-          "reg_id_habitat": {
+          "reg_id_municipio": {
             "type": "string"
           },
           "reg_centroPoblado": {
@@ -2130,25 +2655,22 @@
           "reg_alturaMax": {
             "type": "string"
           },
-          "reg_id_estado_conservacion": {
+          "reg_idEstadoConservacion": {
             "type": "string"
           },
-          "reg_id_taxa": {
+          "reg_idTitularDerechos": {
             "type": "string"
           },
-          "titular_derecho": {
-            "type": "string"
-          },
-          "reg_id_medio_establecimiento": {
+          "reg_idMedioEstablecimiento": {
             "type": "string"
           },
           "reg_condicionReproductiva": {
             "type": "string"
           },
-          "reg_id_base_registro": {
+          "reg_idBaseRegistro": {
             "type": "string"
           },
-          "reg_id_tipo": {
+          "reg_idTipo": {
             "type": "string"
           },
           "reg_idIdioma": {
@@ -2157,7 +2679,7 @@
           "reg_licencia": {
             "type": "string"
           },
-          "reg_id_derechos_acceso": {
+          "reg_idDerechosAcceso": {
             "type": "string"
           },
           "reg_comentarioRegistroBiologico": {
@@ -2166,7 +2688,7 @@
           "reg_nombreConjuntoDatos": {
             "type": "string"
           },
-          "reg_id_disposicion": {
+          "reg_idDisposicion": {
             "type": "string"
           },
           "reg_preparaciones": {
@@ -2235,7 +2757,7 @@
           "reg_habito": {
             "type": "string"
           },
-          "reg_epitetoInfraespecifico": {
+          "reg_epiteto_infraespecifico": {
             "type": "string"
           },
           "reg_colectores": {

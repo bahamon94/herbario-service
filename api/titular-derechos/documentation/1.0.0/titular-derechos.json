@@ -725,7 +725,7 @@
               }
             }
           },
-          "historial_correccions": {
+          "historico_correcciones": {
             "type": "array",
             "items": {
               "required": [
@@ -741,10 +741,10 @@
                 "reg_nomComun": {
                   "type": "string"
                 },
-                "reg_id_municipio": {
+                "reg_idHabitat": {
                   "type": "string"
                 },
-                "reg_id_habitat": {
+                "reg_id_municipio": {
                   "type": "string"
                 },
                 "reg_centroPoblado": {
@@ -774,25 +774,22 @@
                 "reg_alturaMax": {
                   "type": "string"
                 },
-                "reg_id_estado_conservacion": {
+                "reg_idEstadoConservacion": {
                   "type": "string"
                 },
-                "reg_id_taxa": {
+                "reg_idTitularDerechos": {
                   "type": "string"
                 },
-                "titular_derecho": {
-                  "type": "string"
-                },
-                "reg_id_medio_establecimiento": {
+                "reg_idMedioEstablecimiento": {
                   "type": "string"
                 },
                 "reg_condicionReproductiva": {
                   "type": "string"
                 },
-                "reg_id_base_registro": {
+                "reg_idBaseRegistro": {
                   "type": "string"
                 },
-                "reg_id_tipo": {
+                "reg_idTipo": {
                   "type": "string"
                 },
                 "reg_idIdioma": {
@@ -801,7 +798,7 @@
                 "reg_licencia": {
                   "type": "string"
                 },
-                "reg_id_derechos_acceso": {
+                "reg_idDerechosAcceso": {
                   "type": "string"
                 },
                 "reg_comentarioRegistroBiologico": {
@@ -810,7 +807,7 @@
                 "reg_nombreConjuntoDatos": {
                   "type": "string"
                 },
-                "reg_id_disposicion": {
+                "reg_idDisposicion": {
                   "type": "string"
                 },
                 "reg_preparaciones": {
@@ -879,7 +876,7 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_epitetoInfraespecifico": {
+                "reg_epiteto_infraespecifico": {
                   "type": "string"
                 },
                 "reg_colectores": {
@@ -926,7 +923,7 @@
               "type": "string"
             }
           },
-          "historial_correccions": {
+          "historico_correcciones": {
             "type": "array",
             "items": {
               "type": "string"

@@ -22,9 +22,9 @@
       "via": "reg_idTipo",
       "collection": "registro-especimen"
     },
-    "historial_correccions": {
-      "via": "reg_id_tipo",
-      "collection": "historial-correccion"
+    "historico_correcciones": {
+      "via": "reg_idTipo",
+      "collection": "historico-correcciones"
     }
   }
 }

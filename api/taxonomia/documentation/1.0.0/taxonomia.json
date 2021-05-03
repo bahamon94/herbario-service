@@ -2311,7 +2311,7 @@
               }
             }
           },
-          "historial_correccions": {
+          "filos": {
             "type": "array",
             "items": {
               "required": [
@@ -2327,10 +2327,10 @@
                 "reg_nomComun": {
                   "type": "string"
                 },
-                "reg_id_municipio": {
+                "reg_idHabitat": {
                   "type": "string"
                 },
-                "reg_id_habitat": {
+                "reg_id_municipio": {
                   "type": "string"
                 },
                 "reg_centroPoblado": {
@@ -2360,25 +2360,22 @@
                 "reg_alturaMax": {
                   "type": "string"
                 },
-                "reg_id_estado_conservacion": {
+                "reg_idEstadoConservacion": {
                   "type": "string"
                 },
-                "reg_id_taxa": {
+                "reg_idTitularDerechos": {
                   "type": "string"
                 },
-                "titular_derecho": {
-                  "type": "string"
-                },
-                "reg_id_medio_establecimiento": {
+                "reg_idMedioEstablecimiento": {
                   "type": "string"
                 },
                 "reg_condicionReproductiva": {
                   "type": "string"
                 },
-                "reg_id_base_registro": {
+                "reg_idBaseRegistro": {
                   "type": "string"
                 },
-                "reg_id_tipo": {
+                "reg_idTipo": {
                   "type": "string"
                 },
                 "reg_idIdioma": {
@@ -2387,7 +2384,7 @@
                 "reg_licencia": {
                   "type": "string"
                 },
-                "reg_id_derechos_acceso": {
+                "reg_idDerechosAcceso": {
                   "type": "string"
                 },
                 "reg_comentarioRegistroBiologico": {
@@ -2396,7 +2393,7 @@
                 "reg_nombreConjuntoDatos": {
                   "type": "string"
                 },
-                "reg_id_disposicion": {
+                "reg_idDisposicion": {
                   "type": "string"
                 },
                 "reg_preparaciones": {
@@ -2465,7 +2462,1359 @@
                 "reg_habito": {
                   "type": "string"
                 },
-                "reg_epitetoInfraespecifico": {
+                "reg_epiteto_infraespecifico": {
+                  "type": "string"
+                },
+                "reg_colectores": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "clases": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "reg_numCatalogo": {
+                  "type": "string"
+                },
+                "reg_nomComun": {
+                  "type": "string"
+                },
+                "reg_idHabitat": {
+                  "type": "string"
+                },
+                "reg_id_municipio": {
+                  "type": "string"
+                },
+                "reg_centroPoblado": {
+                  "type": "string"
+                },
+                "reg_localidad": {
+                  "type": "string"
+                },
+                "reg_comentarioubicacion": {
+                  "type": "string"
+                },
+                "reg_fechaColeccion": {
+                  "type": "string"
+                },
+                "reg_fechaIdentifica": {
+                  "type": "string"
+                },
+                "reg_idUsuarioCorrige": {
+                  "type": "integer"
+                },
+                "reg_fechaCorrige": {
+                  "type": "string"
+                },
+                "reg_alturaMin": {
+                  "type": "string"
+                },
+                "reg_alturaMax": {
+                  "type": "string"
+                },
+                "reg_idEstadoConservacion": {
+                  "type": "string"
+                },
+                "reg_idTitularDerechos": {
+                  "type": "string"
+                },
+                "reg_idMedioEstablecimiento": {
+                  "type": "string"
+                },
+                "reg_condicionReproductiva": {
+                  "type": "string"
+                },
+                "reg_idBaseRegistro": {
+                  "type": "string"
+                },
+                "reg_idTipo": {
+                  "type": "string"
+                },
+                "reg_idIdioma": {
+                  "type": "integer"
+                },
+                "reg_licencia": {
+                  "type": "string"
+                },
+                "reg_idDerechosAcceso": {
+                  "type": "string"
+                },
+                "reg_comentarioRegistroBiologico": {
+                  "type": "string"
+                },
+                "reg_nombreConjuntoDatos": {
+                  "type": "string"
+                },
+                "reg_idDisposicion": {
+                  "type": "string"
+                },
+                "reg_preparaciones": {
+                  "type": "string"
+                },
+                "reg_filo": {
+                  "type": "string"
+                },
+                "reg_clase": {
+                  "type": "string"
+                },
+                "reg_subclase": {
+                  "type": "string"
+                },
+                "reg_orden": {
+                  "type": "string"
+                },
+                "reg_familia": {
+                  "type": "string"
+                },
+                "reg_subfamilia": {
+                  "type": "string"
+                },
+                "reg_especie": {
+                  "type": "string"
+                },
+                "reg_genero": {
+                  "type": "string"
+                },
+                "reg_subgenero": {
+                  "type": "string"
+                },
+                "reg_epiteto": {
+                  "type": "string"
+                },
+                "reg_idUsuarioIdentifica": {
+                  "type": "string"
+                },
+                "numColector": {
+                  "type": "string"
+                },
+                "latitud": {
+                  "type": "string"
+                },
+                "longitud": {
+                  "type": "string"
+                },
+                "reg_departamento": {
+                  "type": "string"
+                },
+                "reg_nombreCientifico": {
+                  "type": "string"
+                },
+                "reg_autoriaNombreCientifico": {
+                  "type": "string"
+                },
+                "reg_categoriaTaxon": {
+                  "type": "string"
+                },
+                "reg_comentarioIdentifica": {
+                  "type": "string"
+                },
+                "reg_usos": {
+                  "type": "string"
+                },
+                "reg_habito": {
+                  "type": "string"
+                },
+                "reg_epiteto_infraespecifico": {
+                  "type": "string"
+                },
+                "reg_colectores": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "subclases": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "reg_numCatalogo": {
+                  "type": "string"
+                },
+                "reg_nomComun": {
+                  "type": "string"
+                },
+                "reg_idHabitat": {
+                  "type": "string"
+                },
+                "reg_id_municipio": {
+                  "type": "string"
+                },
+                "reg_centroPoblado": {
+                  "type": "string"
+                },
+                "reg_localidad": {
+                  "type": "string"
+                },
+                "reg_comentarioubicacion": {
+                  "type": "string"
+                },
+                "reg_fechaColeccion": {
+                  "type": "string"
+                },
+                "reg_fechaIdentifica": {
+                  "type": "string"
+                },
+                "reg_idUsuarioCorrige": {
+                  "type": "integer"
+                },
+                "reg_fechaCorrige": {
+                  "type": "string"
+                },
+                "reg_alturaMin": {
+                  "type": "string"
+                },
+                "reg_alturaMax": {
+                  "type": "string"
+                },
+                "reg_idEstadoConservacion": {
+                  "type": "string"
+                },
+                "reg_idTitularDerechos": {
+                  "type": "string"
+                },
+                "reg_idMedioEstablecimiento": {
+                  "type": "string"
+                },
+                "reg_condicionReproductiva": {
+                  "type": "string"
+                },
+                "reg_idBaseRegistro": {
+                  "type": "string"
+                },
+                "reg_idTipo": {
+                  "type": "string"
+                },
+                "reg_idIdioma": {
+                  "type": "integer"
+                },
+                "reg_licencia": {
+                  "type": "string"
+                },
+                "reg_idDerechosAcceso": {
+                  "type": "string"
+                },
+                "reg_comentarioRegistroBiologico": {
+                  "type": "string"
+                },
+                "reg_nombreConjuntoDatos": {
+                  "type": "string"
+                },
+                "reg_idDisposicion": {
+                  "type": "string"
+                },
+                "reg_preparaciones": {
+                  "type": "string"
+                },
+                "reg_filo": {
+                  "type": "string"
+                },
+                "reg_clase": {
+                  "type": "string"
+                },
+                "reg_subclase": {
+                  "type": "string"
+                },
+                "reg_orden": {
+                  "type": "string"
+                },
+                "reg_familia": {
+                  "type": "string"
+                },
+                "reg_subfamilia": {
+                  "type": "string"
+                },
+                "reg_especie": {
+                  "type": "string"
+                },
+                "reg_genero": {
+                  "type": "string"
+                },
+                "reg_subgenero": {
+                  "type": "string"
+                },
+                "reg_epiteto": {
+                  "type": "string"
+                },
+                "reg_idUsuarioIdentifica": {
+                  "type": "string"
+                },
+                "numColector": {
+                  "type": "string"
+                },
+                "latitud": {
+                  "type": "string"
+                },
+                "longitud": {
+                  "type": "string"
+                },
+                "reg_departamento": {
+                  "type": "string"
+                },
+                "reg_nombreCientifico": {
+                  "type": "string"
+                },
+                "reg_autoriaNombreCientifico": {
+                  "type": "string"
+                },
+                "reg_categoriaTaxon": {
+                  "type": "string"
+                },
+                "reg_comentarioIdentifica": {
+                  "type": "string"
+                },
+                "reg_usos": {
+                  "type": "string"
+                },
+                "reg_habito": {
+                  "type": "string"
+                },
+                "reg_epiteto_infraespecifico": {
+                  "type": "string"
+                },
+                "reg_colectores": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "ordens": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "reg_numCatalogo": {
+                  "type": "string"
+                },
+                "reg_nomComun": {
+                  "type": "string"
+                },
+                "reg_idHabitat": {
+                  "type": "string"
+                },
+                "reg_id_municipio": {
+                  "type": "string"
+                },
+                "reg_centroPoblado": {
+                  "type": "string"
+                },
+                "reg_localidad": {
+                  "type": "string"
+                },
+                "reg_comentarioubicacion": {
+                  "type": "string"
+                },
+                "reg_fechaColeccion": {
+                  "type": "string"
+                },
+                "reg_fechaIdentifica": {
+                  "type": "string"
+                },
+                "reg_idUsuarioCorrige": {
+                  "type": "integer"
+                },
+                "reg_fechaCorrige": {
+                  "type": "string"
+                },
+                "reg_alturaMin": {
+                  "type": "string"
+                },
+                "reg_alturaMax": {
+                  "type": "string"
+                },
+                "reg_idEstadoConservacion": {
+                  "type": "string"
+                },
+                "reg_idTitularDerechos": {
+                  "type": "string"
+                },
+                "reg_idMedioEstablecimiento": {
+                  "type": "string"
+                },
+                "reg_condicionReproductiva": {
+                  "type": "string"
+                },
+                "reg_idBaseRegistro": {
+                  "type": "string"
+                },
+                "reg_idTipo": {
+                  "type": "string"
+                },
+                "reg_idIdioma": {
+                  "type": "integer"
+                },
+                "reg_licencia": {
+                  "type": "string"
+                },
+                "reg_idDerechosAcceso": {
+                  "type": "string"
+                },
+                "reg_comentarioRegistroBiologico": {
+                  "type": "string"
+                },
+                "reg_nombreConjuntoDatos": {
+                  "type": "string"
+                },
+                "reg_idDisposicion": {
+                  "type": "string"
+                },
+                "reg_preparaciones": {
+                  "type": "string"
+                },
+                "reg_filo": {
+                  "type": "string"
+                },
+                "reg_clase": {
+                  "type": "string"
+                },
+                "reg_subclase": {
+                  "type": "string"
+                },
+                "reg_orden": {
+                  "type": "string"
+                },
+                "reg_familia": {
+                  "type": "string"
+                },
+                "reg_subfamilia": {
+                  "type": "string"
+                },
+                "reg_especie": {
+                  "type": "string"
+                },
+                "reg_genero": {
+                  "type": "string"
+                },
+                "reg_subgenero": {
+                  "type": "string"
+                },
+                "reg_epiteto": {
+                  "type": "string"
+                },
+                "reg_idUsuarioIdentifica": {
+                  "type": "string"
+                },
+                "numColector": {
+                  "type": "string"
+                },
+                "latitud": {
+                  "type": "string"
+                },
+                "longitud": {
+                  "type": "string"
+                },
+                "reg_departamento": {
+                  "type": "string"
+                },
+                "reg_nombreCientifico": {
+                  "type": "string"
+                },
+                "reg_autoriaNombreCientifico": {
+                  "type": "string"
+                },
+                "reg_categoriaTaxon": {
+                  "type": "string"
+                },
+                "reg_comentarioIdentifica": {
+                  "type": "string"
+                },
+                "reg_usos": {
+                  "type": "string"
+                },
+                "reg_habito": {
+                  "type": "string"
+                },
+                "reg_epiteto_infraespecifico": {
+                  "type": "string"
+                },
+                "reg_colectores": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "especies": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "reg_numCatalogo": {
+                  "type": "string"
+                },
+                "reg_nomComun": {
+                  "type": "string"
+                },
+                "reg_idHabitat": {
+                  "type": "string"
+                },
+                "reg_id_municipio": {
+                  "type": "string"
+                },
+                "reg_centroPoblado": {
+                  "type": "string"
+                },
+                "reg_localidad": {
+                  "type": "string"
+                },
+                "reg_comentarioubicacion": {
+                  "type": "string"
+                },
+                "reg_fechaColeccion": {
+                  "type": "string"
+                },
+                "reg_fechaIdentifica": {
+                  "type": "string"
+                },
+                "reg_idUsuarioCorrige": {
+                  "type": "integer"
+                },
+                "reg_fechaCorrige": {
+                  "type": "string"
+                },
+                "reg_alturaMin": {
+                  "type": "string"
+                },
+                "reg_alturaMax": {
+                  "type": "string"
+                },
+                "reg_idEstadoConservacion": {
+                  "type": "string"
+                },
+                "reg_idTitularDerechos": {
+                  "type": "string"
+                },
+                "reg_idMedioEstablecimiento": {
+                  "type": "string"
+                },
+                "reg_condicionReproductiva": {
+                  "type": "string"
+                },
+                "reg_idBaseRegistro": {
+                  "type": "string"
+                },
+                "reg_idTipo": {
+                  "type": "string"
+                },
+                "reg_idIdioma": {
+                  "type": "integer"
+                },
+                "reg_licencia": {
+                  "type": "string"
+                },
+                "reg_idDerechosAcceso": {
+                  "type": "string"
+                },
+                "reg_comentarioRegistroBiologico": {
+                  "type": "string"
+                },
+                "reg_nombreConjuntoDatos": {
+                  "type": "string"
+                },
+                "reg_idDisposicion": {
+                  "type": "string"
+                },
+                "reg_preparaciones": {
+                  "type": "string"
+                },
+                "reg_filo": {
+                  "type": "string"
+                },
+                "reg_clase": {
+                  "type": "string"
+                },
+                "reg_subclase": {
+                  "type": "string"
+                },
+                "reg_orden": {
+                  "type": "string"
+                },
+                "reg_familia": {
+                  "type": "string"
+                },
+                "reg_subfamilia": {
+                  "type": "string"
+                },
+                "reg_especie": {
+                  "type": "string"
+                },
+                "reg_genero": {
+                  "type": "string"
+                },
+                "reg_subgenero": {
+                  "type": "string"
+                },
+                "reg_epiteto": {
+                  "type": "string"
+                },
+                "reg_idUsuarioIdentifica": {
+                  "type": "string"
+                },
+                "numColector": {
+                  "type": "string"
+                },
+                "latitud": {
+                  "type": "string"
+                },
+                "longitud": {
+                  "type": "string"
+                },
+                "reg_departamento": {
+                  "type": "string"
+                },
+                "reg_nombreCientifico": {
+                  "type": "string"
+                },
+                "reg_autoriaNombreCientifico": {
+                  "type": "string"
+                },
+                "reg_categoriaTaxon": {
+                  "type": "string"
+                },
+                "reg_comentarioIdentifica": {
+                  "type": "string"
+                },
+                "reg_usos": {
+                  "type": "string"
+                },
+                "reg_habito": {
+                  "type": "string"
+                },
+                "reg_epiteto_infraespecifico": {
+                  "type": "string"
+                },
+                "reg_colectores": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "generos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "reg_numCatalogo": {
+                  "type": "string"
+                },
+                "reg_nomComun": {
+                  "type": "string"
+                },
+                "reg_idHabitat": {
+                  "type": "string"
+                },
+                "reg_id_municipio": {
+                  "type": "string"
+                },
+                "reg_centroPoblado": {
+                  "type": "string"
+                },
+                "reg_localidad": {
+                  "type": "string"
+                },
+                "reg_comentarioubicacion": {
+                  "type": "string"
+                },
+                "reg_fechaColeccion": {
+                  "type": "string"
+                },
+                "reg_fechaIdentifica": {
+                  "type": "string"
+                },
+                "reg_idUsuarioCorrige": {
+                  "type": "integer"
+                },
+                "reg_fechaCorrige": {
+                  "type": "string"
+                },
+                "reg_alturaMin": {
+                  "type": "string"
+                },
+                "reg_alturaMax": {
+                  "type": "string"
+                },
+                "reg_idEstadoConservacion": {
+                  "type": "string"
+                },
+                "reg_idTitularDerechos": {
+                  "type": "string"
+                },
+                "reg_idMedioEstablecimiento": {
+                  "type": "string"
+                },
+                "reg_condicionReproductiva": {
+                  "type": "string"
+                },
+                "reg_idBaseRegistro": {
+                  "type": "string"
+                },
+                "reg_idTipo": {
+                  "type": "string"
+                },
+                "reg_idIdioma": {
+                  "type": "integer"
+                },
+                "reg_licencia": {
+                  "type": "string"
+                },
+                "reg_idDerechosAcceso": {
+                  "type": "string"
+                },
+                "reg_comentarioRegistroBiologico": {
+                  "type": "string"
+                },
+                "reg_nombreConjuntoDatos": {
+                  "type": "string"
+                },
+                "reg_idDisposicion": {
+                  "type": "string"
+                },
+                "reg_preparaciones": {
+                  "type": "string"
+                },
+                "reg_filo": {
+                  "type": "string"
+                },
+                "reg_clase": {
+                  "type": "string"
+                },
+                "reg_subclase": {
+                  "type": "string"
+                },
+                "reg_orden": {
+                  "type": "string"
+                },
+                "reg_familia": {
+                  "type": "string"
+                },
+                "reg_subfamilia": {
+                  "type": "string"
+                },
+                "reg_especie": {
+                  "type": "string"
+                },
+                "reg_genero": {
+                  "type": "string"
+                },
+                "reg_subgenero": {
+                  "type": "string"
+                },
+                "reg_epiteto": {
+                  "type": "string"
+                },
+                "reg_idUsuarioIdentifica": {
+                  "type": "string"
+                },
+                "numColector": {
+                  "type": "string"
+                },
+                "latitud": {
+                  "type": "string"
+                },
+                "longitud": {
+                  "type": "string"
+                },
+                "reg_departamento": {
+                  "type": "string"
+                },
+                "reg_nombreCientifico": {
+                  "type": "string"
+                },
+                "reg_autoriaNombreCientifico": {
+                  "type": "string"
+                },
+                "reg_categoriaTaxon": {
+                  "type": "string"
+                },
+                "reg_comentarioIdentifica": {
+                  "type": "string"
+                },
+                "reg_usos": {
+                  "type": "string"
+                },
+                "reg_habito": {
+                  "type": "string"
+                },
+                "reg_epiteto_infraespecifico": {
+                  "type": "string"
+                },
+                "reg_colectores": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "subgeneros": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "reg_numCatalogo": {
+                  "type": "string"
+                },
+                "reg_nomComun": {
+                  "type": "string"
+                },
+                "reg_idHabitat": {
+                  "type": "string"
+                },
+                "reg_id_municipio": {
+                  "type": "string"
+                },
+                "reg_centroPoblado": {
+                  "type": "string"
+                },
+                "reg_localidad": {
+                  "type": "string"
+                },
+                "reg_comentarioubicacion": {
+                  "type": "string"
+                },
+                "reg_fechaColeccion": {
+                  "type": "string"
+                },
+                "reg_fechaIdentifica": {
+                  "type": "string"
+                },
+                "reg_idUsuarioCorrige": {
+                  "type": "integer"
+                },
+                "reg_fechaCorrige": {
+                  "type": "string"
+                },
+                "reg_alturaMin": {
+                  "type": "string"
+                },
+                "reg_alturaMax": {
+                  "type": "string"
+                },
+                "reg_idEstadoConservacion": {
+                  "type": "string"
+                },
+                "reg_idTitularDerechos": {
+                  "type": "string"
+                },
+                "reg_idMedioEstablecimiento": {
+                  "type": "string"
+                },
+                "reg_condicionReproductiva": {
+                  "type": "string"
+                },
+                "reg_idBaseRegistro": {
+                  "type": "string"
+                },
+                "reg_idTipo": {
+                  "type": "string"
+                },
+                "reg_idIdioma": {
+                  "type": "integer"
+                },
+                "reg_licencia": {
+                  "type": "string"
+                },
+                "reg_idDerechosAcceso": {
+                  "type": "string"
+                },
+                "reg_comentarioRegistroBiologico": {
+                  "type": "string"
+                },
+                "reg_nombreConjuntoDatos": {
+                  "type": "string"
+                },
+                "reg_idDisposicion": {
+                  "type": "string"
+                },
+                "reg_preparaciones": {
+                  "type": "string"
+                },
+                "reg_filo": {
+                  "type": "string"
+                },
+                "reg_clase": {
+                  "type": "string"
+                },
+                "reg_subclase": {
+                  "type": "string"
+                },
+                "reg_orden": {
+                  "type": "string"
+                },
+                "reg_familia": {
+                  "type": "string"
+                },
+                "reg_subfamilia": {
+                  "type": "string"
+                },
+                "reg_especie": {
+                  "type": "string"
+                },
+                "reg_genero": {
+                  "type": "string"
+                },
+                "reg_subgenero": {
+                  "type": "string"
+                },
+                "reg_epiteto": {
+                  "type": "string"
+                },
+                "reg_idUsuarioIdentifica": {
+                  "type": "string"
+                },
+                "numColector": {
+                  "type": "string"
+                },
+                "latitud": {
+                  "type": "string"
+                },
+                "longitud": {
+                  "type": "string"
+                },
+                "reg_departamento": {
+                  "type": "string"
+                },
+                "reg_nombreCientifico": {
+                  "type": "string"
+                },
+                "reg_autoriaNombreCientifico": {
+                  "type": "string"
+                },
+                "reg_categoriaTaxon": {
+                  "type": "string"
+                },
+                "reg_comentarioIdentifica": {
+                  "type": "string"
+                },
+                "reg_usos": {
+                  "type": "string"
+                },
+                "reg_habito": {
+                  "type": "string"
+                },
+                "reg_epiteto_infraespecifico": {
+                  "type": "string"
+                },
+                "reg_colectores": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "epitetos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "reg_numCatalogo": {
+                  "type": "string"
+                },
+                "reg_nomComun": {
+                  "type": "string"
+                },
+                "reg_idHabitat": {
+                  "type": "string"
+                },
+                "reg_id_municipio": {
+                  "type": "string"
+                },
+                "reg_centroPoblado": {
+                  "type": "string"
+                },
+                "reg_localidad": {
+                  "type": "string"
+                },
+                "reg_comentarioubicacion": {
+                  "type": "string"
+                },
+                "reg_fechaColeccion": {
+                  "type": "string"
+                },
+                "reg_fechaIdentifica": {
+                  "type": "string"
+                },
+                "reg_idUsuarioCorrige": {
+                  "type": "integer"
+                },
+                "reg_fechaCorrige": {
+                  "type": "string"
+                },
+                "reg_alturaMin": {
+                  "type": "string"
+                },
+                "reg_alturaMax": {
+                  "type": "string"
+                },
+                "reg_idEstadoConservacion": {
+                  "type": "string"
+                },
+                "reg_idTitularDerechos": {
+                  "type": "string"
+                },
+                "reg_idMedioEstablecimiento": {
+                  "type": "string"
+                },
+                "reg_condicionReproductiva": {
+                  "type": "string"
+                },
+                "reg_idBaseRegistro": {
+                  "type": "string"
+                },
+                "reg_idTipo": {
+                  "type": "string"
+                },
+                "reg_idIdioma": {
+                  "type": "integer"
+                },
+                "reg_licencia": {
+                  "type": "string"
+                },
+                "reg_idDerechosAcceso": {
+                  "type": "string"
+                },
+                "reg_comentarioRegistroBiologico": {
+                  "type": "string"
+                },
+                "reg_nombreConjuntoDatos": {
+                  "type": "string"
+                },
+                "reg_idDisposicion": {
+                  "type": "string"
+                },
+                "reg_preparaciones": {
+                  "type": "string"
+                },
+                "reg_filo": {
+                  "type": "string"
+                },
+                "reg_clase": {
+                  "type": "string"
+                },
+                "reg_subclase": {
+                  "type": "string"
+                },
+                "reg_orden": {
+                  "type": "string"
+                },
+                "reg_familia": {
+                  "type": "string"
+                },
+                "reg_subfamilia": {
+                  "type": "string"
+                },
+                "reg_especie": {
+                  "type": "string"
+                },
+                "reg_genero": {
+                  "type": "string"
+                },
+                "reg_subgenero": {
+                  "type": "string"
+                },
+                "reg_epiteto": {
+                  "type": "string"
+                },
+                "reg_idUsuarioIdentifica": {
+                  "type": "string"
+                },
+                "numColector": {
+                  "type": "string"
+                },
+                "latitud": {
+                  "type": "string"
+                },
+                "longitud": {
+                  "type": "string"
+                },
+                "reg_departamento": {
+                  "type": "string"
+                },
+                "reg_nombreCientifico": {
+                  "type": "string"
+                },
+                "reg_autoriaNombreCientifico": {
+                  "type": "string"
+                },
+                "reg_categoriaTaxon": {
+                  "type": "string"
+                },
+                "reg_comentarioIdentifica": {
+                  "type": "string"
+                },
+                "reg_usos": {
+                  "type": "string"
+                },
+                "reg_habito": {
+                  "type": "string"
+                },
+                "reg_epiteto_infraespecifico": {
+                  "type": "string"
+                },
+                "reg_colectores": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "registro_epitetoInfraespecificos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "reg_numCatalogo": {
+                  "type": "string"
+                },
+                "reg_nomComun": {
+                  "type": "string"
+                },
+                "reg_idHabitat": {
+                  "type": "string"
+                },
+                "reg_id_municipio": {
+                  "type": "string"
+                },
+                "reg_centroPoblado": {
+                  "type": "string"
+                },
+                "reg_localidad": {
+                  "type": "string"
+                },
+                "reg_comentarioubicacion": {
+                  "type": "string"
+                },
+                "reg_fechaColeccion": {
+                  "type": "string"
+                },
+                "reg_fechaIdentifica": {
+                  "type": "string"
+                },
+                "reg_idUsuarioCorrige": {
+                  "type": "integer"
+                },
+                "reg_fechaCorrige": {
+                  "type": "string"
+                },
+                "reg_alturaMin": {
+                  "type": "string"
+                },
+                "reg_alturaMax": {
+                  "type": "string"
+                },
+                "reg_idEstadoConservacion": {
+                  "type": "string"
+                },
+                "reg_idTitularDerechos": {
+                  "type": "string"
+                },
+                "reg_idMedioEstablecimiento": {
+                  "type": "string"
+                },
+                "reg_condicionReproductiva": {
+                  "type": "string"
+                },
+                "reg_idBaseRegistro": {
+                  "type": "string"
+                },
+                "reg_idTipo": {
+                  "type": "string"
+                },
+                "reg_idIdioma": {
+                  "type": "integer"
+                },
+                "reg_licencia": {
+                  "type": "string"
+                },
+                "reg_idDerechosAcceso": {
+                  "type": "string"
+                },
+                "reg_comentarioRegistroBiologico": {
+                  "type": "string"
+                },
+                "reg_nombreConjuntoDatos": {
+                  "type": "string"
+                },
+                "reg_idDisposicion": {
+                  "type": "string"
+                },
+                "reg_preparaciones": {
+                  "type": "string"
+                },
+                "reg_filo": {
+                  "type": "string"
+                },
+                "reg_clase": {
+                  "type": "string"
+                },
+                "reg_subclase": {
+                  "type": "string"
+                },
+                "reg_orden": {
+                  "type": "string"
+                },
+                "reg_familia": {
+                  "type": "string"
+                },
+                "reg_subfamilia": {
+                  "type": "string"
+                },
+                "reg_especie": {
+                  "type": "string"
+                },
+                "reg_genero": {
+                  "type": "string"
+                },
+                "reg_subgenero": {
+                  "type": "string"
+                },
+                "reg_epiteto": {
+                  "type": "string"
+                },
+                "reg_idUsuarioIdentifica": {
+                  "type": "string"
+                },
+                "numColector": {
+                  "type": "string"
+                },
+                "latitud": {
+                  "type": "string"
+                },
+                "longitud": {
+                  "type": "string"
+                },
+                "reg_departamento": {
+                  "type": "string"
+                },
+                "reg_nombreCientifico": {
+                  "type": "string"
+                },
+                "reg_autoriaNombreCientifico": {
+                  "type": "string"
+                },
+                "reg_categoriaTaxon": {
+                  "type": "string"
+                },
+                "reg_comentarioIdentifica": {
+                  "type": "string"
+                },
+                "reg_usos": {
+                  "type": "string"
+                },
+                "reg_habito": {
+                  "type": "string"
+                },
+                "reg_epiteto_infraespecifico": {
                   "type": "string"
                 },
                 "reg_colectores": {
@@ -2565,7 +3914,55 @@
               "type": "string"
             }
           },
-          "historial_correccions": {
+          "filos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "clases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "subclases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ordens": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "especies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "generos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "subgeneros": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "epitetos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "registro_epitetoInfraespecificos": {
             "type": "array",
             "items": {
               "type": "string"

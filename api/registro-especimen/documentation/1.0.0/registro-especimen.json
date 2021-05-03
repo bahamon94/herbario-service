@@ -560,7 +560,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -600,7 +600,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -669,7 +669,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -766,7 +766,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -809,7 +857,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -846,7 +894,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -893,7 +941,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -930,7 +978,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -974,7 +1022,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1019,7 +1067,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1120,7 +1168,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1217,7 +1313,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1314,7 +1458,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1411,7 +1603,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1508,7 +1748,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1605,7 +1893,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1702,7 +2038,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1799,7 +2183,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1896,7 +2328,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1993,7 +2473,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -2051,7 +2579,7 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "historico_correcciones": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -2166,7 +2694,55 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
+              "filos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "clases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subclases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordens": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "especies": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "generos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "subgeneros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "epitetos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "registro_epitetoInfraespecificos": {
                 "type": "array",
                 "items": {
                   "type": "string"

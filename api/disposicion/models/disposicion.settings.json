@@ -22,9 +22,9 @@
       "via": "reg_idDisposicion",
       "collection": "registro-especimen"
     },
-    "historial_correccions": {
-      "via": "reg_id_disposicion",
-      "collection": "historial-correccion"
+    "historico_correcciones": {
+      "via": "reg_idDisposicion",
+      "collection": "historico-correcciones"
     }
   }
 }

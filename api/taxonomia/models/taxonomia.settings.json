@@ -65,9 +65,41 @@
       "via": "reg_epitetoInfraespecifico",
       "collection": "registro-especimen"
     },
-    "historial_correccions": {
+    "filos": {
+      "via": "reg_filo",
+      "collection": "historico-correcciones"
+    },
+    "clases": {
+      "via": "reg_clase",
+      "collection": "historico-correcciones"
+    },
+    "subclases": {
+      "via": "reg_subclase",
+      "collection": "historico-correcciones"
+    },
+    "ordens": {
+      "via": "reg_orden",
+      "collection": "historico-correcciones"
+    },
+    "especies": {
+      "via": "reg_especie",
+      "collection": "historico-correcciones"
+    },
+    "generos": {
+      "via": "reg_genero",
+      "collection": "historico-correcciones"
+    },
+    "subgeneros": {
+      "via": "reg_subgenero",
+      "collection": "historico-correcciones"
+    },
+    "epitetos": {
       "via": "reg_epiteto",
-      "collection": "historial-correccion"
+      "collection": "historico-correcciones"
+    },
+    "registro_epitetoInfraespecificos": {
+      "via": "reg_epiteto_infraespecifico",
+      "collection": "historico-correcciones"
     }
   }
 }

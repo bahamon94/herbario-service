@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "historial_correccions",
+  "collectionName": "historico_correcciones",
   "info": {
-    "name": "historial-correccion"
+    "name": "historico_correcciones",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,13 +17,13 @@
     "reg_nomComun": {
       "type": "string"
     },
+    "reg_idHabitat": {
+      "model": "habitat",
+      "via": "historico_correcciones"
+    },
     "reg_id_municipio": {
       "model": "municipios",
-      "via": "historial_correccions"
-    },
-    "reg_id_habitat": {
-      "model": "habitat",
-      "via": "historial_correccions"
+      "via": "historico_correcciones"
     },
     "reg_centroPoblado": {
       "type": "string"
@@ -40,7 +41,7 @@
       "type": "date"
     },
     "reg_idUsuarioCorrige": {
-      "type": "biginteger"
+      "type": "integer"
     },
     "reg_fechaCorrige": {
       "type": "date"
@@ -51,32 +52,28 @@
     "reg_alturaMax": {
       "type": "string"
     },
-    "reg_id_estado_conservacion": {
+    "reg_idEstadoConservacion": {
       "model": "estado-consevacion",
-      "via": "historial_correccions"
+      "via": "historico_correcciones"
     },
-    "reg_id_taxa": {
-      "model": "taxonomia",
-      "via": "historial_correccions"
-    },
-    "titular_derecho": {
+    "reg_idTitularDerechos": {
       "model": "titular-derechos",
-      "via": "historial_correccions"
+      "via": "historico_correcciones"
     },
-    "reg_id_medio_establecimiento": {
+    "reg_idMedioEstablecimiento": {
       "model": "medio-establecimiento",
-      "via": "historial_correccions"
+      "via": "historico_correcciones"
     },
     "reg_condicionReproductiva": {
       "type": "string"
     },
-    "reg_id_base_registro": {
+    "reg_idBaseRegistro": {
       "model": "base-registro",
-      "via": "historial_correccions"
+      "via": "historico_correcciones"
     },
-    "reg_id_tipo": {
+    "reg_idTipo": {
       "model": "tipo",
-      "via": "historial_correccions"
+      "via": "historico_correcciones"
     },
     "reg_idIdioma": {
       "type": "integer"
@@ -84,9 +81,9 @@
     "reg_licencia": {
       "type": "string"
     },
-    "reg_id_derechos_acceso": {
+    "reg_idDerechosAcceso": {
       "model": "derechos-acceso",
-      "via": "historial_correccions"
+      "via": "historico_correcciones"
     },
     "reg_comentarioRegistroBiologico": {
       "type": "string"
@@ -94,52 +91,50 @@
     "reg_nombreConjuntoDatos": {
       "type": "string"
     },
-    "reg_id_disposicion": {
+    "reg_idDisposicion": {
       "model": "disposicion",
-      "via": "historial_correccions"
+      "via": "historico_correcciones"
     },
     "reg_preparaciones": {
       "type": "string"
     },
     "reg_filo": {
       "model": "taxonomia",
-      "via": "historial_correccions"
+      "via": "filos"
     },
     "reg_clase": {
       "model": "taxonomia",
-      "via": "historial_correccions"
+      "via": "clases"
     },
     "reg_subclase": {
       "model": "taxonomia",
-      "via": "historial_correccions"
+      "via": "subclases"
     },
     "reg_orden": {
       "model": "taxonomia",
-      "via": "historial_correccions"
+      "via": "ordens"
     },
     "reg_familia": {
-      "model": "taxonomia",
-      "via": "historial_correccions"
+      "model": "taxonomia"
     },
     "reg_subfamilia": {
-      "model": "taxonomia",
-      "via": "historial_correccions"
+      "model": "taxonomia"
     },
     "reg_especie": {
       "model": "taxonomia",
-      "via": "historial_correccions"
+      "via": "especies"
     },
     "reg_genero": {
       "model": "taxonomia",
-      "via": "historial_correccions"
+      "via": "generos"
     },
     "reg_subgenero": {
       "model": "taxonomia",
-      "via": "historial_correccions"
+      "via": "subgeneros"
     },
     "reg_epiteto": {
       "model": "taxonomia",
-      "via": "historial_correccions"
+      "via": "epitetos"
     },
     "reg_idUsuarioIdentifica": {
       "type": "string"
@@ -155,7 +150,7 @@
     },
     "reg_departamento": {
       "model": "departamentos",
-      "via": "historial_correccions"
+      "via": "historico_correcciones"
     },
     "reg_nombreCientifico": {
       "type": "string"
@@ -175,8 +170,9 @@
     "reg_habito": {
       "type": "string"
     },
-    "reg_epitetoInfraespecifico": {
-      "type": "string"
+    "reg_epiteto_infraespecifico": {
+      "model": "taxonomia",
+      "via": "registro_epitetoInfraespecificos"
     },
     "reg_colectores": {
       "type": "string"

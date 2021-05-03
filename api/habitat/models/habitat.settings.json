@@ -18,9 +18,9 @@
       "via": "reg_idHabitat",
       "collection": "registro-especimen"
     },
-    "historial_correccions": {
-      "via": "reg_id_habitat",
-      "collection": "historial-correccion"
+    "historico_correcciones": {
+      "via": "reg_idHabitat",
+      "collection": "historico-correcciones"
     }
   }
 }

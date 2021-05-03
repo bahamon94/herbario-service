@@ -595,7 +595,7 @@
                     "type": "string"
                   }
                 },
-                "historial_correccions": {
+                "historico_correcciones": {
                   "type": "array",
                   "items": {
                     "type": "string"

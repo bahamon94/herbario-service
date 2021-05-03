@@ -30,9 +30,9 @@
       "via": "reg_idTitularDerechos",
       "collection": "registro-especimen"
     },
-    "historial_correccions": {
-      "via": "titular_derecho",
-      "collection": "historial-correccion"
+    "historico_correcciones": {
+      "via": "reg_idTitularDerechos",
+      "collection": "historico-correcciones"
     }
   }
 }
