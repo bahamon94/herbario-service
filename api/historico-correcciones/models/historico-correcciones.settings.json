@@ -1,0 +1,181 @@
+{
+  "kind": "collectionType",
+  "collectionName": "historico_correcciones",
+  "info": {
+    "name": "historico_correcciones",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "reg_numCatalogo": {
+      "type": "string"
+    },
+    "reg_nomComun": {
+      "type": "string"
+    },
+    "reg_idHabitat": {
+      "model": "habitat",
+      "via": "historico_correcciones"
+    },
+    "reg_id_municipio": {
+      "model": "municipios",
+      "via": "historico_correcciones"
+    },
+    "reg_centroPoblado": {
+      "type": "string"
+    },
+    "reg_localidad": {
+      "type": "string"
+    },
+    "reg_comentarioubicacion": {
+      "type": "string"
+    },
+    "reg_fechaColeccion": {
+      "type": "date"
+    },
+    "reg_fechaIdentifica": {
+      "type": "date"
+    },
+    "reg_idUsuarioCorrige": {
+      "type": "integer"
+    },
+    "reg_fechaCorrige": {
+      "type": "date"
+    },
+    "reg_alturaMin": {
+      "type": "string"
+    },
+    "reg_alturaMax": {
+      "type": "string"
+    },
+    "reg_idEstadoConservacion": {
+      "model": "estado-consevacion",
+      "via": "historico_correcciones"
+    },
+    "reg_idTitularDerechos": {
+      "model": "titular-derechos",
+      "via": "historico_correcciones"
+    },
+    "reg_idMedioEstablecimiento": {
+      "model": "medio-establecimiento",
+      "via": "historico_correcciones"
+    },
+    "reg_condicionReproductiva": {
+      "type": "string"
+    },
+    "reg_idBaseRegistro": {
+      "model": "base-registro",
+      "via": "historico_correcciones"
+    },
+    "reg_idTipo": {
+      "model": "tipo",
+      "via": "historico_correcciones"
+    },
+    "reg_idIdioma": {
+      "type": "integer"
+    },
+    "reg_licencia": {
+      "type": "string"
+    },
+    "reg_idDerechosAcceso": {
+      "model": "derechos-acceso",
+      "via": "historico_correcciones"
+    },
+    "reg_comentarioRegistroBiologico": {
+      "type": "string"
+    },
+    "reg_nombreConjuntoDatos": {
+      "type": "string"
+    },
+    "reg_idDisposicion": {
+      "model": "disposicion",
+      "via": "historico_correcciones"
+    },
+    "reg_preparaciones": {
+      "type": "string"
+    },
+    "reg_filo": {
+      "model": "taxonomia",
+      "via": "filos"
+    },
+    "reg_clase": {
+      "model": "taxonomia",
+      "via": "clases"
+    },
+    "reg_subclase": {
+      "model": "taxonomia",
+      "via": "subclases"
+    },
+    "reg_orden": {
+      "model": "taxonomia",
+      "via": "ordens"
+    },
+    "reg_familia": {
+      "model": "taxonomia"
+    },
+    "reg_subfamilia": {
+      "model": "taxonomia"
+    },
+    "reg_especie": {
+      "model": "taxonomia",
+      "via": "especies"
+    },
+    "reg_genero": {
+      "model": "taxonomia",
+      "via": "generos"
+    },
+    "reg_subgenero": {
+      "model": "taxonomia",
+      "via": "subgeneros"
+    },
+    "reg_epiteto": {
+      "model": "taxonomia",
+      "via": "epitetos"
+    },
+    "reg_idUsuarioIdentifica": {
+      "type": "string"
+    },
+    "numColector": {
+      "type": "string"
+    },
+    "latitud": {
+      "type": "string"
+    },
+    "longitud": {
+      "type": "string"
+    },
+    "reg_departamento": {
+      "model": "departamentos",
+      "via": "historico_correcciones"
+    },
+    "reg_nombreCientifico": {
+      "type": "string"
+    },
+    "reg_autoriaNombreCientifico": {
+      "type": "string"
+    },
+    "reg_categoriaTaxon": {
+      "type": "string"
+    },
+    "reg_comentarioIdentifica": {
+      "type": "string"
+    },
+    "reg_usos": {
+      "type": "string"
+    },
+    "reg_habito": {
+      "type": "string"
+    },
+    "reg_epiteto_infraespecifico": {
+      "model": "taxonomia",
+      "via": "registro_epitetoInfraespecificos"
+    },
+    "reg_colectores": {
+      "type": "string"
+    }
+  }
+}

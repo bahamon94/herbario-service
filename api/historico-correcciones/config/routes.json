@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/historico-correcciones",
+      "handler": "historico-correcciones.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/historico-correcciones/count",
+      "handler": "historico-correcciones.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/historico-correcciones/:id",
+      "handler": "historico-correcciones.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/historico-correcciones",
+      "handler": "historico-correcciones.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/historico-correcciones/:id",
+      "handler": "historico-correcciones.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/historico-correcciones/:id",
+      "handler": "historico-correcciones.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

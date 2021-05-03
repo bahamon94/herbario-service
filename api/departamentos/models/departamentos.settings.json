@@ -29,6 +29,10 @@
     "registro_especimen": {
       "via": "reg_departamento",
       "collection": "registro-especimen"
+    },
+    "historico_correcciones": {
+      "via": "reg_departamento",
+      "collection": "historico-correcciones"
     }
   }
 }

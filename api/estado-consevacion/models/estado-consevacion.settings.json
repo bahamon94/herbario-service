@@ -16,6 +16,10 @@
     "registro_especimen": {
       "via": "reg_idEstadoConservacion",
       "collection": "registro-especimen"
+    },
+    "historico_correcciones": {
+      "via": "reg_idEstadoConservacion",
+      "collection": "historico-correcciones"
     }
   }
 }

@@ -25,6 +25,10 @@
     "epiteto": {
       "via": "reg_epiteto",
       "collection": "registro-especimen"
+    },
+    "historico_correcciones": {
+      "via": "reg_idBaseRegistro",
+      "collection": "historico-correcciones"
     }
   }
 }
