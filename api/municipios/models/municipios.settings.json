@@ -25,10 +25,6 @@
     "registro_especimen": {
       "via": "reg_id_municipio",
       "collection": "registro-especimen"
-    },
-    "historial_correccions": {
-      "via": "reg_id_municipio",
-      "collection": "historial-correccion"
     }
   }
 }

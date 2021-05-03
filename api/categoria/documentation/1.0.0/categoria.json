@@ -608,12 +608,6 @@
                     "type": "string"
                   }
                 },
-                "historial_correccions": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "published_at": {
                   "type": "string"
                 },

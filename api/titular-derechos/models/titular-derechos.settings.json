@@ -29,10 +29,6 @@
     "registro_especimen": {
       "via": "reg_idTitularDerechos",
       "collection": "registro-especimen"
-    },
-    "historial_correccions": {
-      "via": "titular_derecho",
-      "collection": "historial-correccion"
     }
   }
 }

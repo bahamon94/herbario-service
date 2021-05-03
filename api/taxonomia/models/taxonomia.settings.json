@@ -64,10 +64,6 @@
     "registro_especimen_infraespecifico": {
       "via": "reg_epitetoInfraespecifico",
       "collection": "registro-especimen"
-    },
-    "historial_correccions": {
-      "via": "reg_epiteto",
-      "collection": "historial-correccion"
     }
   }
 }

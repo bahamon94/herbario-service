@@ -560,12 +560,6 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "published_at": {
                 "type": "string"
               },
@@ -595,12 +589,6 @@
                 "type": "string"
               },
               "registro_especimen": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -664,12 +652,6 @@
                 "type": "string"
               },
               "registro_especimen": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -766,12 +748,6 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "published_at": {
                 "type": "string"
               },
@@ -809,12 +785,6 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "published_at": {
                 "type": "string"
               },
@@ -841,12 +811,6 @@
                 "type": "string"
               },
               "registro_especimen": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -893,12 +857,6 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "published_at": {
                 "type": "string"
               },
@@ -925,12 +883,6 @@
                 "type": "string"
               },
               "registro_especimen": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -974,12 +926,6 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "published_at": {
                 "type": "string"
               },
@@ -1014,12 +960,6 @@
                 "type": "string"
               },
               "registro_especimen": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1120,12 +1060,6 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "published_at": {
                 "type": "string"
               },
@@ -1212,12 +1146,6 @@
                 }
               },
               "registro_especimen_infraespecifico": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1314,12 +1242,6 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "published_at": {
                 "type": "string"
               },
@@ -1406,12 +1328,6 @@
                 }
               },
               "registro_especimen_infraespecifico": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1508,12 +1424,6 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "published_at": {
                 "type": "string"
               },
@@ -1600,12 +1510,6 @@
                 }
               },
               "registro_especimen_infraespecifico": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1702,12 +1606,6 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "published_at": {
                 "type": "string"
               },
@@ -1794,12 +1692,6 @@
                 }
               },
               "registro_especimen_infraespecifico": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -1896,12 +1788,6 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "published_at": {
                 "type": "string"
               },
@@ -1993,12 +1879,6 @@
                   "type": "string"
                 }
               },
-              "historial_correccions": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "published_at": {
                 "type": "string"
               },
@@ -2046,12 +1926,6 @@
                 }
               },
               "registro_especimen": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -2161,12 +2035,6 @@
                 }
               },
               "registro_especimen_infraespecifico": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "historial_correccions": {
                 "type": "array",
                 "items": {
                   "type": "string"
