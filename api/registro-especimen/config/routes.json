@@ -26,6 +26,14 @@
     },
     {
       "method": "POST",
+      "path": "/registro-especimen/cargueinfo/",
+      "handler": "registro-especimen.uploadFile",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
       "path": "/registro-especimen",
       "handler": "registro-especimen.create",
       "config": {
