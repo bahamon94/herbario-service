@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "registro_especimen",
+  "collectionName": "registroespecimen",
   "info": {
     "name": "registro_especimen",
     "description": ""
