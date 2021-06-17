@@ -13,7 +13,7 @@ module.exports = {
                 let fileTransformedToArray = ctx.request.body //preparing empty array for storing entities.
                 fileTransformedToArray.forEach( async entity => {
                     console.log('REGISTRANDO->',entity);
-                   await strapi.services['registro-especimen'].add(entity);
+                   await strapi.services['registro-especimen'].create(entity);
                    data.push(entity)
                 });
                 return data
