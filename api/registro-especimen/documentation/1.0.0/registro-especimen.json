@@ -2845,6 +2845,9 @@
           "reg_taxonesAsociados": {
             "type": "string"
           },
+          "reg_protocoloMuestreo": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -3028,6 +3031,9 @@
             "type": "string"
           },
           "reg_taxonesAsociados": {
+            "type": "string"
+          },
+          "reg_protocoloMuestreo": {
             "type": "string"
           },
           "published_at": {

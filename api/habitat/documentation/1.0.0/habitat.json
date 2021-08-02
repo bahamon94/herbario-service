@@ -698,6 +698,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },

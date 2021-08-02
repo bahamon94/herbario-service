@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/01/2021 9:40:03 PM"
+    "x-generation-date": "08/01/2021 9:42:34 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -12799,6 +12799,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -12981,6 +12984,9 @@
                   "type": "string"
                 },
                 "reg_taxonesAsociados": {
+                  "type": "string"
+                },
+                "reg_protocoloMuestreo": {
                   "type": "string"
                 },
                 "published_at": {
@@ -13860,6 +13866,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -14276,6 +14285,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -14683,6 +14695,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -15086,6 +15101,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -15484,6 +15502,9 @@
                   "type": "string"
                 },
                 "reg_taxonesAsociados": {
+                  "type": "string"
+                },
+                "reg_protocoloMuestreo": {
                   "type": "string"
                 },
                 "published_at": {
@@ -18312,6 +18333,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -18763,6 +18787,9 @@
                   "type": "string"
                 },
                 "reg_taxonesAsociados": {
+                  "type": "string"
+                },
+                "reg_protocoloMuestreo": {
                   "type": "string"
                 },
                 "published_at": {
@@ -21374,6 +21401,9 @@
           "reg_taxonesAsociados": {
             "type": "string"
           },
+          "reg_protocoloMuestreo": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -21557,6 +21587,9 @@
             "type": "string"
           },
           "reg_taxonesAsociados": {
+            "type": "string"
+          },
+          "reg_protocoloMuestreo": {
             "type": "string"
           },
           "published_at": {
@@ -21790,6 +21823,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -21972,6 +22008,9 @@
                   "type": "string"
                 },
                 "reg_taxonesAsociados": {
+                  "type": "string"
+                },
+                "reg_protocoloMuestreo": {
                   "type": "string"
                 },
                 "published_at": {
@@ -22158,6 +22197,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -22340,6 +22382,9 @@
                   "type": "string"
                 },
                 "reg_taxonesAsociados": {
+                  "type": "string"
+                },
+                "reg_protocoloMuestreo": {
                   "type": "string"
                 },
                 "published_at": {
@@ -22526,6 +22571,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -22708,6 +22756,9 @@
                   "type": "string"
                 },
                 "reg_taxonesAsociados": {
+                  "type": "string"
+                },
+                "reg_protocoloMuestreo": {
                   "type": "string"
                 },
                 "published_at": {
@@ -22894,6 +22945,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -23076,6 +23130,9 @@
                   "type": "string"
                 },
                 "reg_taxonesAsociados": {
+                  "type": "string"
+                },
+                "reg_protocoloMuestreo": {
                   "type": "string"
                 },
                 "published_at": {
@@ -23262,6 +23319,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -23444,6 +23504,9 @@
                   "type": "string"
                 },
                 "reg_taxonesAsociados": {
+                  "type": "string"
+                },
+                "reg_protocoloMuestreo": {
                   "type": "string"
                 },
                 "published_at": {
@@ -25398,6 +25461,9 @@
                 "reg_taxonesAsociados": {
                   "type": "string"
                 },
+                "reg_protocoloMuestreo": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -25811,6 +25877,9 @@
                   "type": "string"
                 },
                 "reg_taxonesAsociados": {
+                  "type": "string"
+                },
+                "reg_protocoloMuestreo": {
                   "type": "string"
                 },
                 "published_at": {
