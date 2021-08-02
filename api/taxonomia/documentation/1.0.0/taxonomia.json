@@ -724,6 +724,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -897,6 +906,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -1074,6 +1092,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -1247,6 +1274,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -1424,6 +1460,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -1597,6 +1642,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -1774,6 +1828,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -1947,6 +2010,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -2124,6 +2196,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -2297,6 +2378,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {

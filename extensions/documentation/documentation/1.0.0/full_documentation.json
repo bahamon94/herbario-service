@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "05/18/2021 5:07:07 PM"
+    "x-generation-date": "08/01/2021 9:40:03 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -12790,6 +12790,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -12963,6 +12972,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -13833,6 +13851,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -14240,6 +14267,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -14638,6 +14674,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -15032,6 +15077,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -15421,6 +15475,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -18240,6 +18303,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -18682,6 +18754,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -21284,6 +21365,15 @@
           "reg_colectores": {
             "type": "string"
           },
+          "reg_categoriaOriginalTaxon": {
+            "type": "string"
+          },
+          "reg_comentariosTaxon": {
+            "type": "string"
+          },
+          "reg_taxonesAsociados": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -21458,6 +21548,15 @@
             "type": "object"
           },
           "reg_colectores": {
+            "type": "string"
+          },
+          "reg_categoriaOriginalTaxon": {
+            "type": "string"
+          },
+          "reg_comentariosTaxon": {
+            "type": "string"
+          },
+          "reg_taxonesAsociados": {
             "type": "string"
           },
           "published_at": {
@@ -21682,6 +21781,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -21855,6 +21963,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -22032,6 +22149,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -22205,6 +22331,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -22382,6 +22517,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -22555,6 +22699,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -22732,6 +22885,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -22905,6 +23067,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -23082,6 +23253,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -23255,6 +23435,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
@@ -25200,6 +25389,15 @@
                 "reg_colectores": {
                   "type": "string"
                 },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -25604,6 +25802,15 @@
                   "type": "object"
                 },
                 "reg_colectores": {
+                  "type": "string"
+                },
+                "reg_categoriaOriginalTaxon": {
+                  "type": "string"
+                },
+                "reg_comentariosTaxon": {
+                  "type": "string"
+                },
+                "reg_taxonesAsociados": {
                   "type": "string"
                 },
                 "published_at": {
