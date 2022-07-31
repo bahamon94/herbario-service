@@ -10,8 +10,8 @@ module.exports = ({ env }) => ({
         database: env('DATABASE_NAME', 'herbario_BD'),
         // username: env('DATABASE_USERNAME', 'postgres'),
         // password: env('DATABASE_PASSWORD', 'herbario.123'),
-        username: env('DATABASE_USERNAME', 'sammy'),
-        password: env('DATABASE_PASSWORD', 'herbario'),
+        username: env('DATABASE_USERNAME', 'tatisramos93'),
+        password: env('DATABASE_PASSWORD', ''),
       },
       options: {
         ssl: false,
