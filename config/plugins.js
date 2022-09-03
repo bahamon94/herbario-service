@@ -6,13 +6,13 @@ module.exports = () => ({
         host: 'smtp-relay.sendinblue.com',
         port:  587,
         auth: {
-          user: 'ktrs_9303@hotmail.com',
-          pass: 't3yOzh1AgbvGK4Fn',
+          user: 'herbariousco@gmail.com',
+          pass: 'U2fF5A8smkQCPMX0',
         },
       },
       settings: {
-        defaultFrom: 'ktrs_9303@hotmail.com',
-        defaultReplyTo: 'ktrs_9303@hotmail.com',
+        defaultFrom: 'herbariousco@gmail.com',
+        defaultReplyTo: 'herbariousco@gmail.com',
       },
     },
     // ...
