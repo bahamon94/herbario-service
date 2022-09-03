@@ -7,7 +7,7 @@ module.exports = () => ({
         port:  587,
         auth: {
           user: 'herbariousco@gmail.com',
-          pass: 'U2fF5A8smkQCPMX0',
+          pass: 'xsmtpsib-510ef1db4ccff3c171641af771728ddce19cda10bc9bb9a567069ef8772b60cb-6M0CDBLVHSXFyQTs',
         },
       },
       settings: {
