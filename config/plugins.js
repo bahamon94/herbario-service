@@ -11,8 +11,8 @@ module.exports = () => ({
         },
       },
       settings: {
-        defaultFrom: 'herbariousco@gmail.com',
-        defaultReplyTo: 'herbariousco@gmail.com',
+        defaultFrom: 'tatisramos93@gmail.com',
+        defaultReplyTo: 'tatisramos93@gmail.com',
       },
     },
     // ...
